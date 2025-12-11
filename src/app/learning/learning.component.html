@@ -1,0 +1,43 @@
+<div class="learning-container">
+  <h2>Vocabulary practice (English ➤ German)</h2>
+
+  <p class="stats">Left for today: <strong>{{ remainingCount() }}</strong></p>
+
+  @if (currentWord) {
+    <div class="card">
+      <div class="word-display">
+        <strong>{{ currentWord.english }}</strong>
+      </div>
+
+      <input
+        #inputElement
+        type="text"
+        [(ngModel)]="userAnswer"
+        placeholder="Enter german translation..."
+        [disabled]="showResult()"
+        (keyup.enter)="handleEnterKey($event)"
+        autocomplete="off"
+      >
+
+      <button (click)="checkAnswer()" [disabled]="showResult || !userAnswer.trim()">Check</button>
+
+      @if (showResult()) {
+        <div class="result-box" [class.correct]="isCorrect" [class.incorrect]="!isCorrect">
+          @if (isCorrect()) {
+            <p>✅ **Good!** Great job.</p>
+          } @else {
+            <p>❌ **Błąd.** Poprawna odpowiedź to:</p>
+            <p class="correct-text">{{ getCorrectAnswer() }}</p>
+            <button (click)="onNext()" class="next-button">Next word (ENTER)</button>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  @if (!currentWord) {
+    <div class="card">
+      <button class="start-session-button" (click)="startSession()">New Session</button>
+    </div>
+  }
+</div>

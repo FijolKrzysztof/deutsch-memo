@@ -41,7 +41,7 @@ export class LearningComponent implements OnInit {
   private handleEnterKeySubject = new Subject();
   private _ = this.handleEnterKeySubject.pipe(
     takeUntilDestroyed(this.destroyRef),
-    throttleTime(1000),
+    throttleTime(500),
   ).subscribe(() => {
     if (this.currentWord) {
       if (this.showResult()) {

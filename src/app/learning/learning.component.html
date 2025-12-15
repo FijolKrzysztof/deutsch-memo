@@ -19,7 +19,7 @@
         autocomplete="off"
       >
 
-      <button (click)="checkAnswer()" [disabled]="showResult || !userAnswer.trim()">Check</button>
+      <button (click)="checkAnswer()" [disabled]="showResult() || !userAnswer.trim()">Check</button>
 
       @if (showResult()) {
         <div class="result-box" [class.correct]="isCorrect" [class.incorrect]="!isCorrect">

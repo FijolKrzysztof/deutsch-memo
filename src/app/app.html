@@ -1,0 +1,13 @@
+<div class="app-header">
+  <h1>Deutsch Memo - Learning German</h1>
+  <div class="controls">
+    <label class="file-label">
+      Import Progress (JSON)
+      <input type="file" (change)="onFileSelected($event)" accept=".json">
+    </label>
+
+    <button (click)="exportProgress()">Export Progress (JSON)</button>
+  </div>
+</div>
+
+<app-learning></app-learning>

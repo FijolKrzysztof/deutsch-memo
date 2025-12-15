@@ -1,10 +1,9 @@
-import {Component, OnInit, HostListener, inject, signal, DestroyRef, viewChild, ElementRef} from '@angular/core';
-import { Word } from '../models/word.model';
-import { WordDataService } from '../services/word-data.service';
-import { SrsService } from '../services/srs.service';
+import {Component, DestroyRef, ElementRef, HostListener, inject, OnInit, signal, viewChild} from '@angular/core';
+import {Word} from '../models/word.model';
+import {SrsService} from '../services/srs.service';
 import {FormsModule} from '@angular/forms';
 import {VocabularyDBService} from '../services/vocabulary-db.service';
-import {debounceTime, Subject, takeUntil, throttleTime} from 'rxjs';
+import {Subject, throttleTime} from 'rxjs';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 
 @Component({
@@ -26,13 +25,9 @@ export class LearningComponent implements OnInit {
   protected showResult = signal(false);
 
   private readonly vocabularyDbService = inject(VocabularyDBService);
+  private readonly srsService = inject(SrsService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly inputElement = viewChild('inputElement', {read: ElementRef});
-
-  constructor(
-    private wordDataService: WordDataService,
-    private srsService: SrsService
-  ) {}
 
   ngOnInit(): void {
     this.startSession().finally();

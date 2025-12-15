@@ -39,7 +39,7 @@ export class VocabularyDBService {
 
           if (!store.indexNames.contains('by_nextReviewDate')) {
             store.createIndex('by_nextReviewDate', 'nextReviewDate', { unique: false });
-            console.log("Utworzono indeks 'by_nextReviewDate' podczas inicjalizacji bazy.");
+            console.log("Created index 'by_nextReviewDate' during database initialization.");
           }
 
           this.initializeData().finally();
@@ -116,7 +116,7 @@ export class VocabularyDBService {
     await this.openDB();
 
     if (!this.db.objectStoreNames.contains(this.STORE_NAME) || !this.db.transaction([this.STORE_NAME], 'readonly').objectStore(this.STORE_NAME).indexNames.contains('by_nextReviewDate')) {
-      console.warn("Brak indeksu 'by_nextReviewDate'. Wyszukiwanie będzie nieefektywne.");
+      console.warn("Missing 'by_nextReviewDate' index.");
     }
 
 

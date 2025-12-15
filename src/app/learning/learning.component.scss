@@ -33,7 +33,7 @@ input[type="text"] {
   margin-bottom: 15px;
   border: 2px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ważne dla responsywności */
+  box-sizing: border-box;
   font-size: 1.1em;
 }
 
@@ -87,7 +87,6 @@ button:disabled {
   background-color: #28a745;
 }
 
-/* Zapytanie dla urządzeń mobilnych - już zapewnione przez max-width, ale na wszelki wypadek */
 @media (max-width: 768px) {
   .learning-container {
     padding: 10px;

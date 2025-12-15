@@ -1,7 +1,7 @@
-import {Injectable} from '@angular/core';
+import {inject, Injectable} from '@angular/core';
 import {Word} from '../models/word.model';
-import {BehaviorSubject, Observable} from 'rxjs';
-import * as words from '../const/words.json'
+import {BehaviorSubject} from 'rxjs';
+import {VocabularyDBService} from './vocabulary-db.service';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ import * as words from '../const/words.json'
 export class WordDataService {
   private readonly STORAGE_KEY = 'learning_app_words_state';
   private readonly wordsSubject: BehaviorSubject<Word[]> = new BehaviorSubject<Word[]>([]);
-  public words$: Observable<Word[]> = this.wordsSubject.asObservable();
+  private readonly vocabularyDbService = inject(VocabularyDBService);
 
   constructor() {
   }
@@ -24,18 +24,8 @@ export class WordDataService {
     this.wordsSubject.next(words);
   }
 
-  updateWord(updatedWord: Word): void {
-    const currentWords = this.wordsSubject.getValue();
-    const index = currentWords.findIndex(w => w.english === updatedWord.english && w.german === updatedWord.german);
-
-    if (index !== -1) {
-      currentWords[index] = updatedWord;
-      this.saveWords(currentWords);
-    }
-  }
-
-  exportProgress(): void {
-    const data = this.wordsSubject.getValue();
+  async exportProgress() {
+    const data = await this.vocabularyDbService.getAllWords();
     const json = JSON.stringify(data);
     const blob = new Blob([json], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -51,20 +41,12 @@ export class WordDataService {
       const importedWords: Word[] = JSON.parse(jsonText);
       if (Array.isArray(importedWords) && importedWords.every(w => w.english && w.german && w.nextReviewDate)) {
         this.saveWords(importedWords);
-        alert(`Zaimportowano ${importedWords.length} postępów. Uruchom sesję nauki ponownie.`);
+        alert(`Imported ${importedWords.length} records.`);
       } else {
-        throw new Error('Niepoprawny format pliku postępu.');
+        throw new Error('Invalid file format.');
       }
     } catch (e) {
-      alert('Błąd podczas wczytywania pliku postępów.');
+      alert('Error uploading file.');
     }
-  }
-
-  getWordsForReview(): Word[] {
-    const now = Date.now();
-    return [];
-    // return this.wordsSubject.getValue()
-    //   .filter(word => word.nextReviewDate <= now)
-    //   .sort(() => 0.5 - Math.random());
   }
 }

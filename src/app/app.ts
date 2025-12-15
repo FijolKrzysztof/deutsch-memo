@@ -13,9 +13,7 @@ import {Word} from './models/word.model';
   styleUrl: './app.scss'
 })
 export class App {
-  constructor(private wordDataService: WordDataService) {
-  }
-
+  private readonly wordDataService = inject(WordDataService);
   private readonly vocabularyDbService = inject(VocabularyDBService);
 
   onFileSelected(event: Event): void {
@@ -35,7 +33,7 @@ export class App {
   }
 
   exportProgress(): void {
-    this.wordDataService.exportProgress();
+    this.wordDataService.exportProgress().finally();
   }
 
   private hasAllFields(w: Word): boolean {

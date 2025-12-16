@@ -19,7 +19,7 @@
   },
   {
     "id": 4,
-    "german": "sein, ist, war, ist gewesen",
+    "german": "sein",
     "english": "to be",
     "nextReviewDate": 0
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": 6,
-    "german": "haben, hat, hatte, hat gehabt",
+    "german": "haben",
     "english": "to have",
     "nextReviewDate": 0
   },
@@ -43,7 +43,7 @@
   },
   {
     "id": 8,
-    "german": "werden, wird, wurde, ist gegermanen",
+    "german": "werden",
     "english": "to become, get",
     "nextReviewDate": 0
   },
@@ -133,7 +133,7 @@
   },
   {
     "id": 23,
-    "german": "können, kann, konnte, hat können",
+    "german": "können",
     "english": "to be able to, can",
     "nextReviewDate": 0
   },
@@ -235,7 +235,7 @@
   },
   {
     "id": 40,
-    "german": "sagen, sagt, sagte, hat gesagt",
+    "german": "sagen",
     "english": "to say, tell",
     "nextReviewDate": 0
   },
@@ -253,7 +253,7 @@
   },
   {
     "id": 43,
-    "german": "müssen, muss, musste, hat gemusst",
+    "german": "müssen",
     "english": "to have to, must",
     "nextReviewDate": 0
   },
@@ -289,7 +289,7 @@
   },
   {
     "id": 49,
-    "german": "geben, gibt, gab, hat gegeben",
+    "german": "geben",
     "english": "to give",
     "nextReviewDate": 0
   },
@@ -313,7 +313,7 @@
   },
   {
     "id": 53,
-    "german": "das Jahr, -e",
+    "german": "das Jahr",
     "english": "year",
     "nextReviewDate": 0
   },
@@ -337,25 +337,25 @@
   },
   {
     "id": 57,
-    "german": "wollen, will, wollte, hat gewollt",
+    "german": "wollen",
     "english": "to want to",
     "nextReviewDate": 0
   },
   {
     "id": 58,
-    "german": "machen, macht, machte, hat gemacht",
+    "german": "machen",
     "english": "to do, make",
     "nextReviewDate": 0
   },
   {
     "id": 59,
-    "german": "andere (r, s)",
+    "german": "andere",
     "english": "other",
     "nextReviewDate": 0
   },
   {
     "id": 60,
-    "german": "sollen, soll, sollte, hat gesollt",
+    "german": "sollen",
     "english": "should, ought to",
     "nextReviewDate": 0
   },
@@ -367,7 +367,7 @@
   },
   {
     "id": 62,
-    "german": "kommen, kommt, kam, ist gekommen",
+    "german": "kommen",
     "english": "to come",
     "nextReviewDate": 0
   },
@@ -391,7 +391,7 @@
   },
   {
     "id": 66,
-    "german": "gehen, geht, ging, ist gegangen",
+    "german": "gehen",
     "english": "to go",
     "nextReviewDate": 0
   },
@@ -463,13 +463,13 @@
   },
   {
     "id": 78,
-    "german": "wissen, weiß, wusste, hat gewusst",
+    "german": "wissen",
     "english": "to know",
     "nextReviewDate": 0
   },
   {
     "id": 79,
-    "german": "sehen, sieht, sah, hat gesehen",
+    "german": "sehen",
     "english": "to see",
     "nextReviewDate": 0
   },
@@ -493,7 +493,7 @@
   },
   {
     "id": 83,
-    "german": "lassen, lässt, ließ, hat gelassen",
+    "german": "lassen",
     "english": "to let, allow, have done",
     "nextReviewDate": 0
   },
@@ -505,7 +505,7 @@
   },
   {
     "id": 85,
-    "german": "stehen, steht, stand, hat gestanden",
+    "german": "stehen",
     "english": "to stand",
     "nextReviewDate": 0
   },
@@ -517,7 +517,7 @@
   },
   {
     "id": 87,
-    "german": "jede (r, s)",
+    "german": "jede",
     "english": "every",
     "nextReviewDate": 0
   },
@@ -535,7 +535,7 @@
   },
   {
     "id": 90,
-    "german": "der Mensch, -en",
+    "german": "der Mensch",
     "english": "human being",
     "nextReviewDate": 0
   },
@@ -559,19 +559,19 @@
   },
   {
     "id": 94,
-    "german": "das Beispiel, -e",
+    "german": "das Beispiel",
     "english": "example",
     "nextReviewDate": 0
   },
   {
     "id": 95,
-    "german": "erste (r, s)",
+    "german": "erste",
     "english": "first",
     "nextReviewDate": 0
   },
   {
     "id": 96,
-    "german": "die Zeit, -en",
+    "german": "die Zeit",
     "english": "time",
     "nextReviewDate": 0
   },
@@ -583,13 +583,13 @@
   },
   {
     "id": 98,
-    "german": "leben, lebt, lebte, hat gelebt",
+    "german": "leben",
     "english": "to live",
     "nextReviewDate": 0
   },
   {
     "id": 99,
-    "german": "die Frau, -en",
+    "german": "die Frau",
     "english": "woman, wife, Mrs.",
     "nextReviewDate": 0
   },
@@ -601,7 +601,7 @@
   },
   {
     "id": 101,
-    "german": "selbst, selber",
+    "german": "selbst",
     "english": "-self",
     "nextReviewDate": 0
   },
@@ -613,7 +613,7 @@
   },
   {
     "id": 103,
-    "german": "finden, findet, fand, hat gefunden",
+    "german": "finden",
     "english": "to find",
     "nextReviewDate": 0
   },
@@ -637,7 +637,7 @@
   },
   {
     "id": 107,
-    "german": "liegen, liegt, lag, hat gelegen",
+    "german": "liegen",
     "english": "to lie",
     "nextReviewDate": 0
   },
@@ -649,7 +649,7 @@
   },
   {
     "id": 109,
-    "german": "nichts, nix",
+    "german": "nichts",
     "english": "nothing",
     "nextReviewDate": 0
   },
@@ -661,7 +661,7 @@
   },
   {
     "id": 111,
-    "german": "der Tag, -e",
+    "german": "der Tag",
     "english": "day",
     "nextReviewDate": 0
   },
@@ -673,13 +673,13 @@
   },
   {
     "id": 113,
-    "german": "bleiben, bleibt, blieb, ist geblieben",
+    "german": "bleiben",
     "english": "to stay, remain",
     "nextReviewDate": 0
   },
   {
     "id": 114,
-    "german": "nun, nu",
+    "german": "nun",
     "english": "now",
     "nextReviewDate": 0
   },
@@ -721,19 +721,19 @@
   },
   {
     "id": 121,
-    "german": "der Mann, -̈er",
+    "german": "der Mann",
     "english": "man",
     "nextReviewDate": 0
   },
   {
     "id": 122,
-    "german": "welch, -e, -er, -es",
+    "german": "welch",
     "english": "which",
     "nextReviewDate": 0
   },
   {
     "id": 123,
-    "german": "tun, tut, tat, hat getan",
+    "german": "tun",
     "english": "to do",
     "nextReviewDate": 0
   },
@@ -751,7 +751,7 @@
   },
   {
     "id": 126,
-    "german": "heißen, heißt, hieß, hat geheißen",
+    "german": "heißen",
     "english": "to be called",
     "nextReviewDate": 0
   },
@@ -763,7 +763,7 @@
   },
   {
     "id": 128,
-    "german": "denken, denkt, dachte, hat gedacht",
+    "german": "denken",
     "english": "to think",
     "nextReviewDate": 0
   },
@@ -793,25 +793,25 @@
   },
   {
     "id": 133,
-    "german": "das Kind, -er",
+    "german": "das Kind",
     "english": "child",
     "nextReviewDate": 0
   },
   {
     "id": 134,
-    "german": "das Land, -̈er",
+    "german": "das Land",
     "english": "land, country, state",
     "nextReviewDate": 0
   },
   {
     "id": 135,
-    "german": "stellen, stellt, stellte, hat gestellt",
+    "german": "stellen",
     "english": "to place, set, put",
     "nextReviewDate": 0
   },
   {
     "id": 136,
-    "german": "zeigen, zeigt, zeigte, hat gezeigt",
+    "german": "zeigen",
     "english": "to show",
     "nextReviewDate": 0
   },
@@ -847,13 +847,13 @@
   },
   {
     "id": 142,
-    "german": "nehmen, nimmt, nahm, hat genommen",
+    "german": "nehmen",
     "english": "to take",
     "nextReviewDate": 0
   },
   {
     "id": 143,
-    "german": "dürfen, darf, durfte, hat gedurft",
+    "german": "dürfen",
     "english": "to be allowed to may",
     "nextReviewDate": 0
   },
@@ -871,19 +871,19 @@
   },
   {
     "id": 146,
-    "german": "hören, hört, hörte, hat gehört",
+    "german": "hören",
     "english": "to hear",
     "nextReviewDate": 0
   },
   {
     "id": 147,
-    "german": "das Haus, -̈er",
+    "german": "das Haus",
     "english": "house",
     "nextReviewDate": 0
   },
   {
     "id": 148,
-    "german": "nein, nee, nö",
+    "german": "nein",
     "english": "no",
     "nextReviewDate": 0
   },
@@ -907,43 +907,43 @@
   },
   {
     "id": 152,
-    "german": "letzte (r, s)",
+    "german": "letzte",
     "english": "last",
     "nextReviewDate": 0
   },
   {
     "id": 153,
-    "german": "fragen, fragt, fragte, hat gefragt",
+    "german": "fragen",
     "english": "to ask",
     "nextReviewDate": 0
   },
   {
     "id": 154,
-    "german": "der Herr, -en",
+    "german": "der Herr",
     "english": "Mr.",
     "nextReviewDate": 0
   },
   {
     "id": 155,
-    "german": "halten, hält, hielt, hat gehalten",
+    "german": "halten",
     "english": "to stop, hold",
     "nextReviewDate": 0
   },
   {
     "id": 156,
-    "german": "glauben, glaubt, glaubte, hat geglaubt",
+    "german": "glauben",
     "english": "to believe",
     "nextReviewDate": 0
   },
   {
     "id": 157,
-    "german": "die Frage, -n",
+    "german": "die Frage",
     "english": "question",
     "nextReviewDate": 0
   },
   {
     "id": 158,
-    "german": "gelten, gilt, galt, hat gegolten",
+    "german": "gelten",
     "english": "to be valid",
     "nextReviewDate": 0
   },
@@ -955,31 +955,31 @@
   },
   {
     "id": 160,
-    "german": "folgen, folgt, folgte, ist gefolgt",
+    "german": "folgen",
     "english": "to follow",
     "nextReviewDate": 0
   },
   {
     "id": 161,
-    "german": "sprechen, spricht, sprach, hat gesprochen",
+    "german": "sprechen",
     "english": "to speak",
     "nextReviewDate": 0
   },
   {
     "id": 162,
-    "german": "führen, führt, führte, hat geführt",
+    "german": "führen",
     "english": "to lead",
     "nextReviewDate": 0
   },
   {
     "id": 163,
-    "german": "bringen, bringt, brachte, hat gebracht",
+    "german": "bringen",
     "english": "to bring, take",
     "nextReviewDate": 0
   },
   {
     "id": 164,
-    "german": "die Welt, -en",
+    "german": "die Welt",
     "english": "world",
     "nextReviewDate": 0
   },
@@ -1003,7 +1003,7 @@
   },
   {
     "id": 168,
-    "german": "mögen, mag, mochte, hat gemocht",
+    "german": "mögen",
     "english": "to like",
     "nextReviewDate": 0
   },
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 172,
-    "german": "das Prozent, -e",
+    "german": "das Prozent",
     "english": "percent",
     "nextReviewDate": 0
   },
@@ -1069,13 +1069,13 @@
   },
   {
     "id": 179,
-    "german": "brauchen, braucht, brauchte, hat gebraucht",
+    "german": "brauchen",
     "english": "to need",
     "nextReviewDate": 0
   },
   {
     "id": 180,
-    "german": "die Hand, -̈e",
+    "german": "die Hand",
     "english": "hand",
     "nextReviewDate": 0
   },
@@ -1087,19 +1087,19 @@
   },
   {
     "id": 182,
-    "german": "weitere (r, s)",
+    "german": "weitere",
     "english": "additional, further",
     "nextReviewDate": 0
   },
   {
     "id": 183,
-    "german": "das Ende, -n",
+    "german": "das Ende",
     "english": "end",
     "nextReviewDate": 0
   },
   {
     "id": 184,
-    "german": "schreiben, schreibt, schrieb, hat geschrieben",
+    "german": "schreiben",
     "english": "to write",
     "nextReviewDate": 0
   },
@@ -1117,7 +1117,7 @@
   },
   {
     "id": 187,
-    "german": "der Fall, -̈e",
+    "german": "der Fall",
     "english": "fall, case",
     "nextReviewDate": 0
   },
@@ -1141,7 +1141,7 @@
   },
   {
     "id": 191,
-    "german": "nennen, nennt, nannte, hat genannt",
+    "german": "nennen",
     "english": "to name, call",
     "nextReviewDate": 0
   },
@@ -1153,37 +1153,37 @@
   },
   {
     "id": 193,
-    "german": "ziehen, zieht, zog, hat gezogen",
+    "german": "ziehen",
     "english": "to pull, move",
     "nextReviewDate": 0
   },
   {
     "id": 194,
-    "german": "das Wort, -̈er",
+    "german": "das Wort",
     "english": "german",
     "nextReviewDate": 0
   },
   {
     "id": 195,
-    "german": "darauf, drauf",
+    "german": "darauf",
     "english": "on it, to it",
     "nextReviewDate": 0
   },
   {
     "id": 196,
-    "german": "eben, ebend",
+    "german": "eben",
     "english": "just, now",
     "nextReviewDate": 0
   },
   {
     "id": 197,
-    "german": "die Seite, -n",
+    "german": "die Seite",
     "english": "side, page",
     "nextReviewDate": 0
   },
   {
     "id": 198,
-    "german": "das Teil, -e",
+    "german": "das Teil",
     "english": "part",
     "nextReviewDate": 0
   },
@@ -1219,13 +1219,13 @@
   },
   {
     "id": 204,
-    "german": "die Stadt, -̈e",
+    "german": "die Stadt",
     "english": "city, town",
     "nextReviewDate": 0
   },
   {
     "id": 205,
-    "german": "spielen, spielt, spielte, hat gespielt",
+    "german": "spielen",
     "english": "to play",
     "nextReviewDate": 0
   },
@@ -1237,43 +1237,43 @@
   },
   {
     "id": 207,
-    "german": "der Euro, -s",
+    "german": "der Euro",
     "english": "euro (unit of currency)",
     "nextReviewDate": 0
   },
   {
     "id": 208,
-    "german": "die Arbeit, -en",
+    "german": "die Arbeit",
     "english": "work",
     "nextReviewDate": 0
   },
   {
     "id": 209,
-    "german": "Million, Mio.",
+    "german": "Million",
     "english": "million",
     "nextReviewDate": 0
   },
   {
     "id": 210,
-    "german": "das Problem, -e",
+    "german": "das Problem",
     "english": "problem",
     "nextReviewDate": 0
   },
   {
     "id": 211,
-    "german": "verstehen, versteht, verstand, hat verstanden",
+    "german": "verstehen",
     "english": "to understand",
     "nextReviewDate": 0
   },
   {
     "id": 212,
-    "german": "bekommen, bekommt, bekam, hat bekommen",
+    "german": "bekommen",
     "english": "to get, receive",
     "nextReviewDate": 0
   },
   {
     "id": 213,
-    "german": "meinen, meint, meinte, hat gemeint",
+    "german": "meinen",
     "english": "to think, have an opinion",
     "nextReviewDate": 0
   },
@@ -1285,13 +1285,13 @@
   },
   {
     "id": 215,
-    "german": "fahren, fährt, fuhr, ist gefahren",
+    "german": "fahren",
     "english": "to drive, ride, go",
     "nextReviewDate": 0
   },
   {
     "id": 216,
-    "german": "kennen, kennt, kannte, hat gekannt",
+    "german": "kennen",
     "english": "to know",
     "nextReviewDate": 0
   },
@@ -1303,19 +1303,19 @@
   },
   {
     "id": 218,
-    "german": "die Mutter, -̈",
+    "german": "die Mutter",
     "english": "mother",
     "nextReviewDate": 0
   },
   {
     "id": 219,
-    "german": "die Woche, -n",
+    "german": "die Woche",
     "english": "week",
     "nextReviewDate": 0
   },
   {
     "id": 220,
-    "german": "der Weg, -e",
+    "german": "der Weg",
     "english": "path, way",
     "nextReviewDate": 0
   },
@@ -1327,7 +1327,7 @@
   },
   {
     "id": 222,
-    "german": "das Auge, -n",
+    "german": "das Auge",
     "english": "eye",
     "nextReviewDate": 0
   },
@@ -1363,7 +1363,7 @@
   },
   {
     "id": 228,
-    "german": "setzen, setzt, setzte, hat gesetzt",
+    "german": "setzen",
     "english": "to set, place, put",
     "nextReviewDate": 0
   },
@@ -1381,13 +1381,13 @@
   },
   {
     "id": 231,
-    "german": "sitzen, sitzt, saß, hat gesessen",
+    "german": "sitzen",
     "english": "to sit",
     "nextReviewDate": 0
   },
   {
     "id": 232,
-    "german": "der Vater, -̈",
+    "german": "der Vater",
     "english": "father",
     "nextReviewDate": 0
   },
@@ -1399,31 +1399,31 @@
   },
   {
     "id": 234,
-    "german": "arbeiten, arbeitet, arbeitete, hat gearbeitet",
+    "german": "arbeiten",
     "english": "to work",
     "nextReviewDate": 0
   },
   {
     "id": 235,
-    "german": "das Geld, -er",
+    "german": "das Geld",
     "english": "money",
     "nextReviewDate": 0
   },
   {
     "id": 236,
-    "german": "das Unternehmen, -",
+    "german": "das Unternehmen",
     "english": "enterprise, company",
     "nextReviewDate": 0
   },
   {
     "id": 237,
-    "german": "nächste (r, s)",
+    "german": "nächste",
     "english": "next",
     "nextReviewDate": 0
   },
   {
     "id": 238,
-    "german": "erklären, erklärt, erklärte, hat erklärt",
+    "german": "erklären",
     "english": "to explain",
     "nextReviewDate": 0
   },
@@ -1435,19 +1435,19 @@
   },
   {
     "id": 240,
-    "german": "der Doktor, -en (Dr.)",
+    "german": "der Doktor",
     "english": "doctor",
     "nextReviewDate": 0
   },
   {
     "id": 241,
-    "german": "das Paar, -e",
+    "german": "das Paar",
     "english": "pair, couple",
     "nextReviewDate": 0
   },
   {
     "id": 242,
-    "german": "das Recht, -e",
+    "german": "das Recht",
     "english": "right, law",
     "nextReviewDate": 0
   },
@@ -1465,55 +1465,55 @@
   },
   {
     "id": 245,
-    "german": "das Wasser, -",
+    "german": "das Wasser",
     "english": "water",
     "nextReviewDate": 0
   },
   {
     "id": 246,
-    "german": "bestehen, besteht, bestand, hat bestanden",
+    "german": "bestehen",
     "english": "to exist, insist, pass (an exam)",
     "nextReviewDate": 0
   },
   {
     "id": 247,
-    "german": "versuchen, versucht, versuchte, hat versucht",
+    "german": "versuchen",
     "english": "to try, attempt",
     "nextReviewDate": 0
   },
   {
     "id": 248,
-    "german": "der Punkt, -e",
+    "german": "der Punkt",
     "english": "dot, point, period",
     "nextReviewDate": 0
   },
   {
     "id": 249,
-    "german": "der Grund, -̈e",
+    "german": "der Grund",
     "english": "reason, basis",
     "nextReviewDate": 0
   },
   {
     "id": 250,
-    "german": "der Kopf, -̈e",
+    "german": "der Kopf",
     "english": "head",
     "nextReviewDate": 0
   },
   {
     "id": 251,
-    "german": "beginnen, beginnt, begann, hat begonnen",
+    "german": "beginnen",
     "english": "to begin",
     "nextReviewDate": 0
   },
   {
     "id": 252,
-    "german": "laufen, läuft, lief, ist gelaufen",
+    "german": "laufen",
     "english": "to run",
     "nextReviewDate": 0
   },
   {
     "id": 253,
-    "german": "das Bild, -er",
+    "german": "das Bild",
     "english": "picture",
     "nextReviewDate": 0
   },
@@ -1525,13 +1525,13 @@
   },
   {
     "id": 255,
-    "german": "der Name, -n",
+    "german": "der Name",
     "english": "name",
     "nextReviewDate": 0
   },
   {
     "id": 256,
-    "german": "die Aufgabe, -n",
+    "german": "die Aufgabe",
     "english": "task, assignment, job",
     "nextReviewDate": 0
   },
@@ -1543,19 +1543,19 @@
   },
   {
     "id": 258,
-    "german": "entsprechen, entspricht, entsprach, hat entsprochen",
+    "german": "entsprechen",
     "english": "to correspond",
     "nextReviewDate": 0
   },
   {
     "id": 259,
-    "german": "treffen, trifft, traf, hat getroffen",
+    "german": "treffen",
     "english": "to meet",
     "nextReviewDate": 0
   },
   {
     "id": 260,
-    "german": "die Art, -en",
+    "german": "die Art",
     "english": "type, kind",
     "nextReviewDate": 0
   },
@@ -1567,19 +1567,19 @@
   },
   {
     "id": 262,
-    "german": "die Geschichte, -n",
+    "german": "die Geschichte",
     "english": "history, story",
     "nextReviewDate": 0
   },
   {
     "id": 263,
-    "german": "erzählen, erzählt, erzählte, hat erzählt",
+    "german": "erzählen",
     "english": "to tell",
     "nextReviewDate": 0
   },
   {
     "id": 264,
-    "german": "entstehen, entsteht, entstand, ist entstanden",
+    "german": "entstehen",
     "english": "to originate, develop",
     "nextReviewDate": 0
   },
@@ -1597,13 +1597,13 @@
   },
   {
     "id": 267,
-    "german": "allein, alleine",
+    "german": "allein",
     "english": "alone",
     "nextReviewDate": 0
   },
   {
     "id": 268,
-    "german": "die Abbildung, -en (Abb.)",
+    "german": "die Abbildung",
     "english": "illustration",
     "nextReviewDate": 0
   },
@@ -1621,7 +1621,7 @@
   },
   {
     "id": 271,
-    "german": "tragen, trägt, trug, hat getragen",
+    "german": "tragen",
     "english": "to carry, wear",
     "nextReviewDate": 0
   },
@@ -1633,7 +1633,7 @@
   },
   {
     "id": 273,
-    "german": "der Freund, -e",
+    "german": "der Freund",
     "english": "friend",
     "nextReviewDate": 0
   },
@@ -1645,25 +1645,25 @@
   },
   {
     "id": 275,
-    "german": "scheinen, scheint, schien, hat geschienen",
+    "german": "scheinen",
     "english": "to shine, seem, appear",
     "nextReviewDate": 0
   },
   {
     "id": 276,
-    "german": "die Stunde, -n",
+    "german": "die Stunde",
     "english": "hour",
     "nextReviewDate": 0
   },
   {
     "id": 277,
-    "german": "aussehen, sieht aus, sah aus, hat ausgesehen",
+    "german": "aussehen",
     "english": "to appear, look",
     "nextReviewDate": 0
   },
   {
     "id": 278,
-    "german": "gern, gerne",
+    "german": "gern",
     "english": "(with a verb) love to",
     "nextReviewDate": 0
   },
@@ -1687,13 +1687,13 @@
   },
   {
     "id": 282,
-    "german": "der Professor, -en",
+    "german": "der Professor",
     "english": "professor",
     "nextReviewDate": 0
   },
   {
     "id": 283,
-    "german": "darüber, drüber",
+    "german": "darüber",
     "english": "above it, about it",
     "nextReviewDate": 0
   },
@@ -1705,7 +1705,7 @@
   },
   {
     "id": 285,
-    "german": "schaffen, schafft, schuf, hat geschaffen",
+    "german": "schaffen",
     "english": "to manage, create",
     "nextReviewDate": 0
   },
@@ -1717,13 +1717,13 @@
   },
   {
     "id": 287,
-    "german": "erhalten, erhält, erhielt, hat erhalten",
+    "german": "erhalten",
     "english": "to receive",
     "nextReviewDate": 0
   },
   {
     "id": 288,
-    "german": "lernen, lernt, lernte, hat gelernt",
+    "german": "lernen",
     "english": "to learn",
     "nextReviewDate": 0
   },
@@ -1735,25 +1735,25 @@
   },
   {
     "id": 290,
-    "german": "der Wert, -e",
+    "german": "der Wert",
     "english": "value",
     "nextReviewDate": 0
   },
   {
     "id": 291,
-    "german": "beziehungsweise, bzw.",
+    "german": "beziehungsweise",
     "english": "or, respectively",
     "nextReviewDate": 0
   },
   {
     "id": 292,
-    "german": "daran, dran",
+    "german": "daran",
     "english": "on it",
     "nextReviewDate": 0
   },
   {
     "id": 293,
-    "german": "suchen, sucht, suchte, hat gesucht",
+    "german": "suchen",
     "english": "to search, look for",
     "nextReviewDate": 0
   },
@@ -1777,31 +1777,31 @@
   },
   {
     "id": 297,
-    "german": "die Zahl, -en",
+    "german": "die Zahl",
     "english": "number",
     "nextReviewDate": 0
   },
   {
     "id": 298,
-    "german": "das Thema, -en",
+    "german": "das Thema",
     "english": "subject, topic, theme",
     "nextReviewDate": 0
   },
   {
     "id": 299,
-    "german": "handeln, handelt, handelte, hat gehandelt",
+    "german": "handeln",
     "english": "to deal, trade",
     "nextReviewDate": 0
   },
   {
     "id": 300,
-    "german": "das Buch, -̈er",
+    "german": "das Buch",
     "english": "book",
     "nextReviewDate": 0
   },
   {
     "id": 301,
-    "german": "bisschen, bissel",
+    "german": "bisschen",
     "english": "a little",
     "nextReviewDate": 0
   },
@@ -1825,19 +1825,19 @@
   },
   {
     "id": 305,
-    "german": "lesen, liest, las, hat gelesen",
+    "german": "lesen",
     "english": "to read",
     "nextReviewDate": 0
   },
   {
     "id": 306,
-    "german": "der Blick, -e",
+    "german": "der Blick",
     "english": "look, view, glance",
     "nextReviewDate": 0
   },
   {
     "id": 307,
-    "german": "die Form, -en",
+    "german": "die Form",
     "english": "form, shape",
     "nextReviewDate": 0
   },
@@ -1849,13 +1849,13 @@
   },
   {
     "id": 309,
-    "german": "erreichen, erreicht, erreichte, hat erreicht",
+    "german": "erreichen",
     "english": "to achieve, reach",
     "nextReviewDate": 0
   },
   {
     "id": 310,
-    "german": "vergehen, vergeht, verging, hat vergangen",
+    "german": "vergehen",
     "english": "to pass (time)",
     "nextReviewDate": 0
   },
@@ -1873,37 +1873,37 @@
   },
   {
     "id": 313,
-    "german": "verlieren, verliert, verlor, hat verloren",
+    "german": "verlieren",
     "english": "to lose",
     "nextReviewDate": 0
   },
   {
     "id": 314,
-    "german": "beste (r, s)",
+    "german": "beste",
     "english": "best",
     "nextReviewDate": 0
   },
   {
     "id": 315,
-    "german": "bilden, bildet, bildete, hat gebildet",
+    "german": "bilden",
     "english": "to form, educate",
     "nextReviewDate": 0
   },
   {
     "id": 316,
-    "german": "der Monat, -e",
+    "german": "der Monat",
     "english": "month",
     "nextReviewDate": 0
   },
   {
     "id": 317,
-    "german": "die Lösung, -en",
+    "german": "die Lösung",
     "english": "solution",
     "nextReviewDate": 0
   },
   {
     "id": 318,
-    "german": "die Sache, -n",
+    "german": "die Sache",
     "english": "thing",
     "nextReviewDate": 0
   },
@@ -1915,13 +1915,13 @@
   },
   {
     "id": 320,
-    "german": "das Ziel, -e",
+    "german": "das Ziel",
     "english": "destination, goal",
     "nextReviewDate": 0
   },
   {
     "id": 321,
-    "german": "steigen, steigt, stieg, ist gestiegen",
+    "german": "steigen",
     "english": "to climb, increase",
     "nextReviewDate": 0
   },
@@ -1933,25 +1933,25 @@
   },
   {
     "id": 323,
-    "german": "essen, isst, aß, hat gegessen",
+    "german": "essen",
     "english": "to eat",
     "nextReviewDate": 0
   },
   {
     "id": 324,
-    "german": "die Minute, -n",
+    "german": "die Minute",
     "english": "minute",
     "nextReviewDate": 0
   },
   {
     "id": 325,
-    "german": "die Nacht, -̈e",
+    "german": "die Nacht",
     "english": "night",
     "nextReviewDate": 0
   },
   {
     "id": 326,
-    "german": "der Platz, -̈e",
+    "german": "der Platz",
     "english": "place, room, square",
     "nextReviewDate": 0
   },
@@ -1963,13 +1963,13 @@
   },
   {
     "id": 328,
-    "german": "das Spiel, -e",
+    "german": "das Spiel",
     "english": "game, match",
     "nextReviewDate": 0
   },
   {
     "id": 329,
-    "german": "die Familie, -n",
+    "german": "die Familie",
     "english": "family",
     "nextReviewDate": 0
   },
@@ -1987,7 +1987,7 @@
   },
   {
     "id": 332,
-    "german": "fallen, fällt, fiel, ist gefallen",
+    "german": "fallen",
     "english": "to fall",
     "nextReviewDate": 0
   },
@@ -1999,7 +1999,7 @@
   },
   {
     "id": 334,
-    "german": "der Preis, -e",
+    "german": "der Preis",
     "english": "price, prize",
     "nextReviewDate": 0
   },
@@ -2017,19 +2017,19 @@
   },
   {
     "id": 337,
-    "german": "der Staat, -en",
+    "german": "der Staat",
     "english": "state",
     "nextReviewDate": 0
   },
   {
     "id": 338,
-    "german": "helfen, hilft, half, hat geholfen",
+    "german": "helfen",
     "english": "to help",
     "nextReviewDate": 0
   },
   {
     "id": 339,
-    "german": "der Bereich, -e",
+    "german": "der Bereich",
     "english": "area, region",
     "nextReviewDate": 0
   },
@@ -2041,13 +2041,13 @@
   },
   {
     "id": 341,
-    "german": "der Ort, -e",
+    "german": "der Ort",
     "english": "place, town, location",
     "nextReviewDate": 0
   },
   {
     "id": 342,
-    "german": "der Abend, -e",
+    "german": "der Abend",
     "english": "evening",
     "nextReviewDate": 0
   },
@@ -2059,7 +2059,7 @@
   },
   {
     "id": 344,
-    "german": "die Stelle, -n",
+    "german": "die Stelle",
     "english": "place",
     "nextReviewDate": 0
   },
@@ -2071,19 +2071,19 @@
   },
   {
     "id": 346,
-    "german": "das Gesicht, -er",
+    "german": "das Gesicht",
     "english": "face",
     "nextReviewDate": 0
   },
   {
     "id": 347,
-    "german": "die Entwicklung, -en",
+    "german": "die Entwicklung",
     "english": "development",
     "nextReviewDate": 0
   },
   {
     "id": 348,
-    "german": "die Uhr, -en",
+    "german": "die Uhr",
     "english": "clock, watch, o’clock",
     "nextReviewDate": 0
   },
@@ -2095,7 +2095,7 @@
   },
   {
     "id": 350,
-    "german": "schließen, schließt, schloss, hat geschlossen",
+    "german": "schließen",
     "english": "to close",
     "nextReviewDate": 0
   },
@@ -2107,7 +2107,7 @@
   },
   {
     "id": 352,
-    "german": "legen, legt, legte, hat gelegt",
+    "german": "legen",
     "english": "to lay, put",
     "nextReviewDate": 0
   },
@@ -2131,37 +2131,37 @@
   },
   {
     "id": 356,
-    "german": "erkennen, erkennt, erkannte, hat erkannt",
+    "german": "erkennen",
     "english": "to recognize, admit",
     "nextReviewDate": 0
   },
   {
     "id": 357,
-    "german": "die Person, -en",
+    "german": "die Person",
     "english": "person",
     "nextReviewDate": 0
   },
   {
     "id": 358,
-    "german": "der Moment, -e",
+    "german": "der Moment",
     "english": "moment",
     "nextReviewDate": 0
   },
   {
     "id": 359,
-    "german": "die Schule, -n",
+    "german": "die Schule",
     "english": "school",
     "nextReviewDate": 0
   },
   {
     "id": 360,
-    "german": "darin, drin, drinnen",
+    "german": "darin",
     "english": "in it, in there, inside",
     "nextReviewDate": 0
   },
   {
     "id": 361,
-    "german": "das Auto, -s",
+    "german": "das Auto",
     "english": "automobile, car",
     "nextReviewDate": 0
   },
@@ -2173,19 +2173,19 @@
   },
   {
     "id": 363,
-    "german": "die Gesellschaft, -en",
+    "german": "die Gesellschaft",
     "english": "society, company",
     "nextReviewDate": 0
   },
   {
     "id": 364,
-    "german": "warten, wartet, wartete, hat gewartet",
+    "german": "warten",
     "english": "to wait",
     "nextReviewDate": 0
   },
   {
     "id": 365,
-    "german": "vorstellen, stellt vor, stellte vor, hat vorgestellt",
+    "german": "vorstellen",
     "english": "to introduce, imagine",
     "nextReviewDate": 0
   },
@@ -2197,25 +2197,25 @@
   },
   {
     "id": 367,
-    "german": "treten, tritt, trat, hat getreten",
+    "german": "treten",
     "english": "to step",
     "nextReviewDate": 0
   },
   {
     "id": 368,
-    "german": "reden, redet, redete, hat geredet",
+    "german": "reden",
     "english": "to talk",
     "nextReviewDate": 0
   },
   {
     "id": 369,
-    "german": "die Gruppe, -n",
+    "german": "die Gruppe",
     "english": "group",
     "nextReviewDate": 0
   },
   {
     "id": 370,
-    "german": "das Ding, -e",
+    "german": "das Ding",
     "english": "thing",
     "nextReviewDate": 0
   },
@@ -2227,7 +2227,7 @@
   },
   {
     "id": 372,
-    "german": "gewinnen, gewinnt, gewann, hat gewonnen",
+    "german": "gewinnen",
     "english": "to win, gain",
     "nextReviewDate": 0
   },
@@ -2245,19 +2245,19 @@
   },
   {
     "id": 375,
-    "german": "die Tür, -en",
+    "german": "die Tür",
     "english": "door",
     "nextReviewDate": 0
   },
   {
     "id": 376,
-    "german": "der Schritt, -e",
+    "german": "der Schritt",
     "english": "step",
     "nextReviewDate": 0
   },
   {
     "id": 377,
-    "german": "entwickeln, entwickelt, entwickelte, hat entwickelt",
+    "german": "entwickeln",
     "english": "to develop",
     "nextReviewDate": 0
   },
@@ -2269,19 +2269,19 @@
   },
   {
     "id": 379,
-    "german": "die Möglichkeit, -en",
+    "german": "die Möglichkeit",
     "english": "possibility, chance",
     "nextReviewDate": 0
   },
   {
     "id": 380,
-    "german": "der Sinn, -e",
+    "german": "der Sinn",
     "english": "sense, meaning",
     "nextReviewDate": 0
   },
   {
     "id": 381,
-    "german": "passieren, passiert, passierte, hat passiert",
+    "german": "passieren",
     "english": "to take place, happen",
     "nextReviewDate": 0
   },
@@ -2293,31 +2293,31 @@
   },
   {
     "id": 383,
-    "german": "der Vergleich, -e",
+    "german": "der Vergleich",
     "english": "comparison",
     "nextReviewDate": 0
   },
   {
     "id": 384,
-    "german": "das System, -e",
+    "german": "das System",
     "english": "system",
     "nextReviewDate": 0
   },
   {
     "id": 385,
-    "german": "die Rolle, -n",
+    "german": "die Rolle",
     "english": "role, roll",
     "nextReviewDate": 0
   },
   {
     "id": 386,
-    "german": "das Ergebnis, -se",
+    "german": "das Ergebnis",
     "english": "result",
     "nextReviewDate": 0
   },
   {
     "id": 387,
-    "german": "vergleichen, vergleicht, verglich, hat verglichen",
+    "german": "vergleichen",
     "english": "to compare",
     "nextReviewDate": 0
   },
@@ -2329,7 +2329,7 @@
   },
   {
     "id": 389,
-    "german": "erwarten, erwartet, erwartete, hat erwartet",
+    "german": "erwarten",
     "english": "to expect",
     "nextReviewDate": 0
   },
@@ -2341,13 +2341,13 @@
   },
   {
     "id": 391,
-    "german": "die Straße, -n",
+    "german": "die Straße",
     "english": "street",
     "nextReviewDate": 0
   },
   {
     "id": 392,
-    "german": "die Angst, -Äe",
+    "german": "die Angst",
     "english": "fear, anxiety",
     "nextReviewDate": 0
   },
@@ -2359,19 +2359,19 @@
   },
   {
     "id": 394,
-    "german": "fühlen, fühlt, fühlte, hat gefühlt",
+    "german": "fühlen",
     "english": "to feel",
     "nextReviewDate": 0
   },
   {
     "id": 395,
-    "german": "jene (r, s)",
+    "german": "jene",
     "english": "that, those",
     "nextReviewDate": 0
   },
   {
     "id": 396,
-    "german": "erinnern, erinnert, erinnerte, hat erinnert",
+    "german": "erinnern",
     "english": "to remind",
     "nextReviewDate": 0
   },
@@ -2383,37 +2383,37 @@
   },
   {
     "id": 398,
-    "german": "bedeuten, bedeutet, bedeutete, hat bedeutet",
+    "german": "bedeuten",
     "english": "to mean",
     "nextReviewDate": 0
   },
   {
     "id": 399,
-    "german": "die Stimme, -n",
+    "german": "die Stimme",
     "english": "voice, vote",
     "nextReviewDate": 0
   },
   {
     "id": 400,
-    "german": "die Reaktion, -en",
+    "german": "die Reaktion",
     "english": "reaction",
     "nextReviewDate": 0
   },
   {
     "id": 401,
-    "german": "wirken, wirkt, wirkte, hat gewirkt",
+    "german": "wirken",
     "english": "to have an effect, take effect, work",
     "nextReviewDate": 0
   },
   {
     "id": 402,
-    "german": "darstellen, stellt dar, stellte dar, hat dargestellt",
+    "german": "darstellen",
     "english": "to depict, portray, show",
     "nextReviewDate": 0
   },
   {
     "id": 403,
-    "german": "der Raum, -̈e",
+    "german": "der Raum",
     "english": "room, space",
     "nextReviewDate": 0
   },
@@ -2425,13 +2425,13 @@
   },
   {
     "id": 405,
-    "german": "bezeichnen, bezeichnet, bezeichnete, hat bezeichnet",
+    "german": "bezeichnen",
     "english": "to call, name",
     "nextReviewDate": 0
   },
   {
     "id": 406,
-    "german": "die Funktion, -en",
+    "german": "die Funktion",
     "english": "function",
     "nextReviewDate": 0
   },
@@ -2443,19 +2443,19 @@
   },
   {
     "id": 408,
-    "german": "erscheinen, erscheint, erschien, ist erschienen",
+    "german": "erscheinen",
     "english": "to appear",
     "nextReviewDate": 0
   },
   {
     "id": 409,
-    "german": "USA (Vereinigte Staaten von Amerika)",
+    "german": "Vereinigte Staaten von Amerika",
     "english": "USA, United States of America",
     "nextReviewDate": 0
   },
   {
     "id": 410,
-    "german": "der Flüchtling, -e",
+    "german": "der Flüchtling",
     "english": "refugee",
     "nextReviewDate": 0
   },
@@ -2473,25 +2473,25 @@
   },
   {
     "id": 413,
-    "german": "ergeben, ergibt, ergab, hat ergeben",
+    "german": "ergeben",
     "english": "to result in, produce",
     "nextReviewDate": 0
   },
   {
     "id": 414,
-    "german": "entscheiden, entscheidet, entschied, hat entschieden",
+    "german": "entscheiden",
     "english": "to decide",
     "nextReviewDate": 0
   },
   {
     "id": 415,
-    "german": "die Universität, -en (Uni)",
+    "german": "die Universität",
     "english": "university",
     "nextReviewDate": 0
   },
   {
     "id": 416,
-    "german": "betreffen, betrifft, betraf, hat betroffen",
+    "german": "betreffen",
     "english": "to affect, concern",
     "nextReviewDate": 0
   },
@@ -2503,37 +2503,37 @@
   },
   {
     "id": 418,
-    "german": "die Richtung, -en",
+    "german": "die Richtung",
     "english": "direction",
     "nextReviewDate": 0
   },
   {
     "id": 419,
-    "german": "bestimmen, bestimmt, bestimmte, hat bestimmt",
+    "german": "bestimmen",
     "english": "to decide, determine",
     "nextReviewDate": 0
   },
   {
     "id": 420,
-    "german": "fehlen, fehlt, fehlte, hat gefehlt",
+    "german": "fehlen",
     "english": "to lack, be missing, be absent",
     "nextReviewDate": 0
   },
   {
     "id": 421,
-    "german": "die Sprache, -n",
+    "german": "die Sprache",
     "english": "language",
     "nextReviewDate": 0
   },
   {
     "id": 422,
-    "german": "das Produkt, -e",
+    "german": "das Produkt",
     "english": "product",
     "nextReviewDate": 0
   },
   {
     "id": 423,
-    "german": "die Situation, -en",
+    "german": "die Situation",
     "english": "situation",
     "nextReviewDate": 0
   },
@@ -2557,7 +2557,7 @@
   },
   {
     "id": 427,
-    "german": "der Anfang, -̈e",
+    "german": "der Anfang",
     "english": "beginning",
     "nextReviewDate": 0
   },
@@ -2569,7 +2569,7 @@
   },
   {
     "id": 429,
-    "german": "nutzen, nutzt, nutzte, hat genutzt",
+    "german": "nutzen",
     "english": "to use",
     "nextReviewDate": 0
   },
@@ -2581,37 +2581,37 @@
   },
   {
     "id": 431,
-    "german": "die Folge, -n",
+    "german": "die Folge",
     "english": "result, consequences",
     "nextReviewDate": 0
   },
   {
     "id": 432,
-    "german": "der Satz, -̈e",
+    "german": "der Satz",
     "english": "sentence",
     "nextReviewDate": 0
   },
   {
     "id": 433,
-    "german": "manche (r, s)",
+    "german": "manche",
     "english": "some, many a",
     "nextReviewDate": 0
   },
   {
     "id": 434,
-    "german": "die Verbindung, -en",
+    "german": "die Verbindung",
     "english": "connection, link",
     "nextReviewDate": 0
   },
   {
     "id": 435,
-    "german": "beschreiben, beschreibt, beschrieb, hat beschrieben",
+    "german": "beschreiben",
     "english": "to describe",
     "nextReviewDate": 0
   },
   {
     "id": 436,
-    "german": "das Licht, -er",
+    "german": "das Licht",
     "english": "light",
     "nextReviewDate": 0
   },
@@ -2623,7 +2623,7 @@
   },
   {
     "id": 438,
-    "german": "die Regel, -n",
+    "german": "die Regel",
     "english": "rule",
     "nextReviewDate": 0
   },
@@ -2635,7 +2635,7 @@
   },
   {
     "id": 440,
-    "german": "der Kollege, -n",
+    "german": "der Kollege",
     "english": "colleague",
     "nextReviewDate": 0
   },
@@ -2659,7 +2659,7 @@
   },
   {
     "id": 444,
-    "german": "lachen, lacht, lachte, hat gelacht",
+    "german": "lachen",
     "english": "to laugh",
     "nextReviewDate": 0
   },
@@ -2677,43 +2677,43 @@
   },
   {
     "id": 447,
-    "german": "die Grenze, -n",
+    "german": "die Grenze",
     "english": "border, frontier",
     "nextReviewDate": 0
   },
   {
     "id": 448,
-    "german": "ändern, ändert, änderte, hat geändert",
+    "german": "ändern",
     "english": "to change",
     "nextReviewDate": 0
   },
   {
     "id": 449,
-    "german": "die Entscheidung, -en",
+    "german": "die Entscheidung",
     "english": "decision",
     "nextReviewDate": 0
   },
   {
     "id": 450,
-    "german": "verlassen, verlässt, verließ, hat verlassen",
+    "german": "verlassen",
     "english": "to leave",
     "nextReviewDate": 0
   },
   {
     "id": 451,
-    "german": "die Idee, -n",
+    "german": "die Idee",
     "english": "idea",
     "nextReviewDate": 0
   },
   {
     "id": 452,
-    "german": "verbinden, verbindet, verband, hat verbunden",
+    "german": "verbinden",
     "english": "to connect, link, unite",
     "nextReviewDate": 0
   },
   {
     "id": 453,
-    "german": "Milliarde, Mrd.",
+    "german": "Milliarde",
     "english": "billion",
     "nextReviewDate": 0
   },
@@ -2725,7 +2725,7 @@
   },
   {
     "id": 455,
-    "german": "die Energie, -n",
+    "german": "die Energie",
     "english": "energy",
     "nextReviewDate": 0
   },
@@ -2743,7 +2743,7 @@
   },
   {
     "id": 458,
-    "german": "die Kraft, -̈e",
+    "german": "die Kraft",
     "english": "strength, power",
     "nextReviewDate": 0
   },
@@ -2755,19 +2755,19 @@
   },
   {
     "id": 460,
-    "german": "gehören, gehört, gehörte, hat gehört",
+    "german": "gehören",
     "english": "to belong",
     "nextReviewDate": 0
   },
   {
     "id": 461,
-    "german": "einsetzen, setzt ein, setzte ein, hat eingesetzt",
+    "german": "einsetzen",
     "english": "to put in, insert",
     "nextReviewDate": 0
   },
   {
     "id": 462,
-    "german": "das Gefühl, -e",
+    "german": "das Gefühl",
     "english": "feeling",
     "nextReviewDate": 0
   },
@@ -2779,13 +2779,13 @@
   },
   {
     "id": 464,
-    "german": "befinden (sich), befindet, befand, hat befunden",
+    "german": "befinden",
     "english": "to be",
     "nextReviewDate": 0
   },
   {
     "id": 465,
-    "german": "die Information, -en",
+    "german": "die Information",
     "english": "information",
     "nextReviewDate": 0
   },
@@ -2803,19 +2803,19 @@
   },
   {
     "id": 468,
-    "german": "die Weise, -n",
+    "german": "die Weise",
     "english": "way, manner",
     "nextReviewDate": 0
   },
   {
     "id": 469,
-    "german": "die Zukunft, -̈e",
+    "german": "die Zukunft",
     "english": "future",
     "nextReviewDate": 0
   },
   {
     "id": 470,
-    "german": "wachsen, wächst, wuchs, ist gewachsen",
+    "german": "wachsen",
     "english": "to grow",
     "nextReviewDate": 0
   },
@@ -2833,7 +2833,7 @@
   },
   {
     "id": 473,
-    "german": "der Text, -e",
+    "german": "der Text",
     "english": "text",
     "nextReviewDate": 0
   },
@@ -2845,13 +2845,13 @@
   },
   {
     "id": 475,
-    "german": "sterben, stirbt, starb, ist gestorben",
+    "german": "sterben",
     "english": "to die",
     "nextReviewDate": 0
   },
   {
     "id": 476,
-    "german": "der Markt, -̈e",
+    "german": "der Markt",
     "english": "market",
     "nextReviewDate": 0
   },
@@ -2869,85 +2869,85 @@
   },
   {
     "id": 479,
-    "german": "Meter, m",
+    "german": "Meter",
     "english": "meter",
     "nextReviewDate": 0
   },
   {
     "id": 480,
-    "german": "nahe, nah",
+    "german": "nahe",
     "english": "near(by), close",
     "nextReviewDate": 0
   },
   {
     "id": 481,
-    "german": "die Hilfe, -n",
+    "german": "die Hilfe",
     "english": "help",
     "nextReviewDate": 0
   },
   {
     "id": 482,
-    "german": "das Kapitel, -",
+    "german": "das Kapitel",
     "english": "chapter",
     "nextReviewDate": 0
   },
   {
     "id": 483,
-    "german": "ausgehen, geht aus, ging aus, ist ausgegangen",
+    "german": "ausgehen",
     "english": "to go out, assume",
     "nextReviewDate": 0
   },
   {
     "id": 484,
-    "german": "die Bedeutung, -en",
+    "german": "die Bedeutung",
     "english": "meaning, significance",
     "nextReviewDate": 0
   },
   {
     "id": 485,
-    "german": "betrachten, betrachtet, betrachtete, hat betrachtet",
+    "german": "betrachten",
     "english": "to look at, consider",
     "nextReviewDate": 0
   },
   {
     "id": 486,
-    "german": "die Chemie, -n",
+    "german": "die Chemie",
     "english": "chemistry",
     "nextReviewDate": 0
   },
   {
     "id": 487,
-    "german": "die Luft, -̈e",
+    "german": "die Luft",
     "english": "air",
     "nextReviewDate": 0
   },
   {
     "id": 488,
-    "german": "der Körper, -",
+    "german": "der Körper",
     "english": "body",
     "nextReviewDate": 0
   },
   {
     "id": 489,
-    "german": "die Struktur, -en",
+    "german": "die Struktur",
     "english": "structure",
     "nextReviewDate": 0
   },
   {
     "id": 490,
-    "german": "stimmen, stimmt, stimmte, hat gestimmt",
+    "german": "stimmen",
     "english": "to be correct, vote, tune",
     "nextReviewDate": 0
   },
   {
     "id": 491,
-    "german": "bitten, bittet, bat, hat gebeten",
+    "german": "bitten",
     "english": "to request, ask",
     "nextReviewDate": 0
   },
   {
     "id": 492,
-    "german": "das Jahrhundert, -e",
+    "german": "das Jahrhundert",
     "english": "century",
     "nextReviewDate": 0
   },
@@ -2977,7 +2977,7 @@
   },
   {
     "id": 497,
-    "german": "anfangen, fängt an, fing an, hat angefangen",
+    "german": "anfangen",
     "english": "to begin, start",
     "nextReviewDate": 0
   },
@@ -2995,19 +2995,19 @@
   },
   {
     "id": 500,
-    "german": "verändern, verändert, veränderte, hat verändert",
+    "german": "verändern",
     "english": "to change",
     "nextReviewDate": 0
   },
   {
     "id": 501,
-    "german": "die Wohnung, -en",
+    "german": "die Wohnung",
     "english": "apartment, flat",
     "nextReviewDate": 0
   },
   {
     "id": 502,
-    "german": "gelingen, gelingt, gelang, ist gelungen",
+    "german": "gelingen",
     "english": "to succeed",
     "nextReviewDate": 0
   },
@@ -3025,49 +3025,49 @@
   },
   {
     "id": 505,
-    "german": "der Film, -e",
+    "german": "der Film",
     "english": "film, movie",
     "nextReviewDate": 0
   },
   {
     "id": 506,
-    "german": "kaufen, kauft, kaufte, hat gekauft",
+    "german": "kaufen",
     "english": "to buy",
     "nextReviewDate": 0
   },
   {
     "id": 507,
-    "german": "ansehen, sieht an, sah an, hat angesehen",
+    "german": "ansehen",
     "english": "to look at, watch",
     "nextReviewDate": 0
   },
   {
     "id": 508,
-    "german": "öffnen, öffnet, öffnete, hat geöffnet",
+    "german": "öffnen",
     "english": "to open",
     "nextReviewDate": 0
   },
   {
     "id": 509,
-    "german": "die Musik, -en",
+    "german": "die Musik",
     "english": "music",
     "nextReviewDate": 0
   },
   {
     "id": 510,
-    "german": "schauen, schaut, schaute, hat geschaut",
+    "german": "schauen",
     "english": "to look",
     "nextReviewDate": 0
   },
   {
     "id": 511,
-    "german": "das Stück, -e",
+    "german": "das Stück",
     "english": "piece",
     "nextReviewDate": 0
   },
   {
     "id": 512,
-    "german": "besondere (r, s)",
+    "german": "besondere",
     "english": "special",
     "nextReviewDate": 0
   },
@@ -3079,7 +3079,7 @@
   },
   {
     "id": 514,
-    "german": "der Gott, -̈er",
+    "german": "der Gott",
     "english": "God",
     "nextReviewDate": 0
   },
@@ -3097,7 +3097,7 @@
   },
   {
     "id": 517,
-    "german": "das Gespräch, -e",
+    "german": "das Gespräch",
     "english": "conversation",
     "nextReviewDate": 0
   },
@@ -3109,31 +3109,31 @@
   },
   {
     "id": 519,
-    "german": "der Kunde, -n",
+    "german": "der Kunde",
     "english": "customer, client",
     "nextReviewDate": 0
   },
   {
     "id": 520,
-    "german": "die Menge, -n",
+    "german": "die Menge",
     "english": "quantity, amount",
     "nextReviewDate": 0
   },
   {
     "id": 521,
-    "german": "die Regierung, -en",
+    "german": "die Regierung",
     "english": "rule, government",
     "nextReviewDate": 0
   },
   {
     "id": 522,
-    "german": "die Antwort, -en",
+    "german": "die Antwort",
     "english": "answer, reply",
     "nextReviewDate": 0
   },
   {
     "id": 523,
-    "german": "annehmen, nimmt an, nahm an, hat angenommen",
+    "german": "annehmen",
     "english": "to accept, assume",
     "nextReviewDate": 0
   },
@@ -3145,7 +3145,7 @@
   },
   {
     "id": 525,
-    "german": "der Zusammenhang, -̈e",
+    "german": "der Zusammenhang",
     "english": "connection, context",
     "nextReviewDate": 0
   },
@@ -3157,7 +3157,7 @@
   },
   {
     "id": 527,
-    "german": "der Arm, -e",
+    "german": "der Arm",
     "english": "arm",
     "nextReviewDate": 0
   },
@@ -3169,25 +3169,25 @@
   },
   {
     "id": 529,
-    "german": "der Tisch, -e",
+    "german": "der Tisch",
     "english": "table",
     "nextReviewDate": 0
   },
   {
     "id": 530,
-    "german": "rufen, ruft, rief, hat gerufen",
+    "german": "rufen",
     "english": "to call",
     "nextReviewDate": 0
   },
   {
     "id": 531,
-    "german": "bieten, bietet, bot, hat geboten",
+    "german": "bieten",
     "english": "to offer",
     "nextReviewDate": 0
   },
   {
     "id": 532,
-    "german": "das Herz, -en",
+    "german": "das Herz",
     "english": "heart",
     "nextReviewDate": 0
   },
@@ -3211,7 +3211,7 @@
   },
   {
     "id": 536,
-    "german": "der Boden, -̈",
+    "german": "der Boden",
     "english": "ground, floor, bottom",
     "nextReviewDate": 0
   },
@@ -3223,25 +3223,25 @@
   },
   {
     "id": 538,
-    "german": "verwenden, verwendet, verwendete, hat verwendet",
+    "german": "verwenden",
     "english": "to use",
     "nextReviewDate": 0
   },
   {
     "id": 539,
-    "german": "die Politik, -en",
+    "german": "die Politik",
     "english": "politics",
     "nextReviewDate": 0
   },
   {
     "id": 540,
-    "german": "der Tod, -e",
+    "german": "der Tod",
     "english": "death",
     "nextReviewDate": 0
   },
   {
     "id": 541,
-    "german": "der Erfolg, -e",
+    "german": "der Erfolg",
     "english": "success",
     "nextReviewDate": 0
   },
@@ -3253,7 +3253,7 @@
   },
   {
     "id": 543,
-    "german": "die Bank, -̈e",
+    "german": "die Bank",
     "english": "bank, bench",
     "nextReviewDate": 0
   },
@@ -3271,19 +3271,19 @@
   },
   {
     "id": 546,
-    "german": "der Präsident, -en",
+    "german": "der Präsident",
     "english": "president",
     "nextReviewDate": 0
   },
   {
     "id": 547,
-    "german": "holen, holt, holte, hat geholt",
+    "german": "holen",
     "english": "to get, fetch",
     "nextReviewDate": 0
   },
   {
     "id": 548,
-    "german": "der Junge, -n",
+    "german": "der Junge",
     "english": "boy",
     "nextReviewDate": 0
   },
@@ -3295,13 +3295,13 @@
   },
   {
     "id": 550,
-    "german": "die Polizei, -en",
+    "german": "die Polizei",
     "english": "police",
     "nextReviewDate": 0
   },
   {
     "id": 551,
-    "german": "die Chance, -n",
+    "german": "die Chance",
     "english": "chance",
     "nextReviewDate": 0
   },
@@ -3319,19 +3319,19 @@
   },
   {
     "id": 554,
-    "german": "die Kunst, -̈e",
+    "german": "die Kunst",
     "english": "art",
     "nextReviewDate": 0
   },
   {
     "id": 555,
-    "german": "die Lage, -n",
+    "german": "die Lage",
     "english": "situation, location",
     "nextReviewDate": 0
   },
   {
     "id": 556,
-    "german": "der Schüler, -",
+    "german": "der Schüler",
     "english": "pupil, student (USA)",
     "nextReviewDate": 0
   },
@@ -3343,37 +3343,37 @@
   },
   {
     "id": 558,
-    "german": "der Druck, -̈e",
+    "german": "der Druck",
     "english": "pressure, printing",
     "nextReviewDate": 0
   },
   {
     "id": 559,
-    "german": "verschwinden, verschwindet, verschwand, ist verschwunden",
+    "german": "verschwinden",
     "english": "to disappear",
     "nextReviewDate": 0
   },
   {
     "id": 560,
-    "german": "wohnen, wohnt, wohnte, hat gewohnt",
+    "german": "wohnen",
     "english": "to live",
     "nextReviewDate": 0
   },
   {
     "id": 561,
-    "german": "bewegen, bewegt, bewegte, hat bewegt",
+    "german": "bewegen",
     "english": "to move",
     "nextReviewDate": 0
   },
   {
     "id": 562,
-    "german": "enthalten, enthält, enthielt, hat enthalten",
+    "german": "enthalten",
     "english": "to contain",
     "nextReviewDate": 0
   },
   {
     "id": 563,
-    "german": "aufnehmen, nimmt auf, nahm auf, hat aufgenommen",
+    "german": "aufnehmen",
     "english": "to take in, record, include",
     "nextReviewDate": 0
   },
@@ -3385,13 +3385,13 @@
   },
   {
     "id": 565,
-    "german": "das Wintersemester, -",
+    "german": "das Wintersemester",
     "english": "winter semester",
     "nextReviewDate": 0
   },
   {
     "id": 566,
-    "german": "merken, merkt, merkte, hat gemerkt",
+    "german": "merken",
     "english": "to notice, remember",
     "nextReviewDate": 0
   },
@@ -3409,13 +3409,13 @@
   },
   {
     "id": 569,
-    "german": "der Begriff, -e",
+    "german": "der Begriff",
     "english": "concept, idea, term",
     "nextReviewDate": 0
   },
   {
     "id": 570,
-    "german": "erleben, erlebt, erlebte, hat erlebt",
+    "german": "erleben",
     "english": "to experience",
     "nextReviewDate": 0
   },
@@ -3433,7 +3433,7 @@
   },
   {
     "id": 573,
-    "german": "der Fuß, -̈e",
+    "german": "der Fuß",
     "english": "foot",
     "nextReviewDate": 0
   },
@@ -3445,31 +3445,31 @@
   },
   {
     "id": 575,
-    "german": "der Krieg, -e",
+    "german": "der Krieg",
     "english": "war",
     "nextReviewDate": 0
   },
   {
     "id": 576,
-    "german": "der Gast, -̈e",
+    "german": "der Gast",
     "english": "guest",
     "nextReviewDate": 0
   },
   {
     "id": 577,
-    "german": "die Aussage, -n",
+    "german": "die Aussage",
     "english": "statement",
     "nextReviewDate": 0
   },
   {
     "id": 578,
-    "german": "das Gesetz, -e",
+    "german": "das Gesetz",
     "english": "law",
     "nextReviewDate": 0
   },
   {
     "id": 579,
-    "german": "planen, plant, plante, hat geplant",
+    "german": "planen",
     "english": "to plan",
     "nextReviewDate": 0
   },
@@ -3481,13 +3481,13 @@
   },
   {
     "id": 581,
-    "german": "das Gut, -̈er",
+    "german": "das Gut",
     "english": "estate, good(s)",
     "nextReviewDate": 0
   },
   {
     "id": 582,
-    "german": "der Kilometer, -",
+    "german": "der Kilometer",
     "english": "kilometer",
     "nextReviewDate": 0
   },
@@ -3499,19 +3499,19 @@
   },
   {
     "id": 584,
-    "german": "vergessen, vergisst, vergaß, hat vergessen",
+    "german": "vergessen",
     "english": "to forget",
     "nextReviewDate": 0
   },
   {
     "id": 585,
-    "german": "der Gedanke, -n",
+    "german": "der Gedanke",
     "english": "thought",
     "nextReviewDate": 0
   },
   {
     "id": 586,
-    "german": "besitzen, besitzt, besaß, hat besessen",
+    "german": "besitzen",
     "english": "to own, have",
     "nextReviewDate": 0
   },
@@ -3523,31 +3523,31 @@
   },
   {
     "id": 588,
-    "german": "die Partei, -en",
+    "german": "die Partei",
     "english": "(political) party",
     "nextReviewDate": 0
   },
   {
     "id": 589,
-    "german": "freuen, freut, freute, hat gefreut",
+    "german": "freuen",
     "english": "to be happy",
     "nextReviewDate": 0
   },
   {
     "id": 590,
-    "german": "hängen, hängt, hängte, hat gehängt",
+    "german": "hängen",
     "english": "to hang",
     "nextReviewDate": 0
   },
   {
     "id": 591,
-    "german": "berichten, berichtet, berichtete, hat berichtet",
+    "german": "berichten",
     "english": "to report",
     "nextReviewDate": 0
   },
   {
     "id": 592,
-    "german": "die Zelle, -n",
+    "german": "die Zelle",
     "english": "cell",
     "nextReviewDate": 0
   },
@@ -3559,19 +3559,19 @@
   },
   {
     "id": 594,
-    "german": "die Kultur, -en",
+    "german": "die Kultur",
     "english": "culture",
     "nextReviewDate": 0
   },
   {
     "id": 595,
-    "german": "der Prozess, -e",
+    "german": "der Prozess",
     "english": "trial, process",
     "nextReviewDate": 0
   },
   {
     "id": 596,
-    "german": "der Sohn, -̈e",
+    "german": "der Sohn",
     "english": "son",
     "nextReviewDate": 0
   },
@@ -3589,25 +3589,25 @@
   },
   {
     "id": 599,
-    "german": "fordern, fordert, forderte, hat gefordert",
+    "german": "fordern",
     "english": "to demand, claim",
     "nextReviewDate": 0
   },
   {
     "id": 600,
-    "german": "studieren, studiert, studierte, hat studiert",
+    "german": "studieren",
     "english": "to study",
     "nextReviewDate": 0
   },
   {
     "id": 601,
-    "german": "gefallen, gefällt, gefiel, hat gefallen",
+    "german": "gefallen",
     "english": "to please",
     "nextReviewDate": 0
   },
   {
     "id": 602,
-    "german": "das Mädchen, -",
+    "german": "das Mädchen",
     "english": "girl",
     "nextReviewDate": 0
   },
@@ -3631,13 +3631,13 @@
   },
   {
     "id": 606,
-    "german": "das Interesse, -n",
+    "german": "das Interesse",
     "english": "interest",
     "nextReviewDate": 0
   },
   {
     "id": 607,
-    "german": "unterscheiden, unterscheidet, unterschied, hat unterschieden",
+    "german": "unterscheiden",
     "english": "to distinguish",
     "nextReviewDate": 0
   },
@@ -3655,7 +3655,7 @@
   },
   {
     "id": 610,
-    "german": "reichen, reicht, reichte, hat gereicht",
+    "german": "reichen",
     "english": "to reach, be enough",
     "nextReviewDate": 0
   },
@@ -3673,13 +3673,13 @@
   },
   {
     "id": 613,
-    "german": "schlagen, schlägt, schlug, hat geschlagen",
+    "german": "schlagen",
     "english": "to hit, beat",
     "nextReviewDate": 0
   },
   {
     "id": 614,
-    "german": "das Tier, -e",
+    "german": "das Tier",
     "english": "animal",
     "nextReviewDate": 0
   },
@@ -3697,43 +3697,43 @@
   },
   {
     "id": 617,
-    "german": "erhöhen, erhöht, erhöhte, hat erhöht",
+    "german": "erhöhen",
     "english": "to raise, increase",
     "nextReviewDate": 0
   },
   {
     "id": 618,
-    "german": "sorgen, sorgt, sorgte, hat gesorgt",
+    "german": "sorgen",
     "english": "to worry, take care",
     "nextReviewDate": 0
   },
   {
     "id": 619,
-    "german": "die Erfahrung, -en",
+    "german": "die Erfahrung",
     "english": "experience",
     "nextReviewDate": 0
   },
   {
     "id": 620,
-    "german": "der Patient, -en",
+    "german": "der Patient",
     "english": "patient",
     "nextReviewDate": 0
   },
   {
     "id": 621,
-    "german": "der Morgen, -",
+    "german": "der Morgen",
     "english": "morning",
     "nextReviewDate": 0
   },
   {
     "id": 622,
-    "german": "der Arzt, -Äe",
+    "german": "der Arzt",
     "english": "physician, doctor",
     "nextReviewDate": 0
   },
   {
     "id": 623,
-    "german": "geschehen, geschieht, geschah, ist geschehen",
+    "german": "geschehen",
     "english": "to happen, occur",
     "nextReviewDate": 0
   },
@@ -3745,7 +3745,7 @@
   },
   {
     "id": 625,
-    "german": "lösen, löst, löste, hat gelöst",
+    "german": "lösen",
     "english": "to solve, loosen",
     "nextReviewDate": 0
   },
@@ -3757,13 +3757,13 @@
   },
   {
     "id": 627,
-    "german": "anbieten, bietet an, bot an, hat angeboten",
+    "german": "anbieten",
     "english": "to offer",
     "nextReviewDate": 0
   },
   {
     "id": 628,
-    "german": "vorkommen, kommt vor, kam vor, ist vorgekommen",
+    "german": "vorkommen",
     "english": "to happen, occur, seem",
     "nextReviewDate": 0
   },
@@ -3775,43 +3775,43 @@
   },
   {
     "id": 630,
-    "german": "wünschen, wünscht, wünschte, hat gewünscht",
+    "german": "wünschen",
     "english": "to want, wish",
     "nextReviewDate": 0
   },
   {
     "id": 631,
-    "german": "interessieren, interessiert, interessierte, hat interessiert",
+    "german": "interessieren",
     "english": "to interest",
     "nextReviewDate": 0
   },
   {
     "id": 632,
-    "german": "der Unterschied, -e",
+    "german": "der Unterschied",
     "english": "difference",
     "nextReviewDate": 0
   },
   {
     "id": 633,
-    "german": "das Foto, -s",
+    "german": "das Foto",
     "english": "photograph",
     "nextReviewDate": 0
   },
   {
     "id": 634,
-    "german": "trinken, trinkt, tid, hat getrunken",
+    "german": "trinken",
     "english": "to drink",
     "nextReviewDate": 0
   },
   {
     "id": 635,
-    "german": "derselbe, dieselbe, dasselbe",
+    "german": "derselbe",
     "english": "the same (one, ones)",
     "nextReviewDate": 0
   },
   {
     "id": 636,
-    "german": "wählen, wählt, wählte, hat gewählt",
+    "german": "wählen",
     "english": "to choose, elect, vote",
     "nextReviewDate": 0
   },
@@ -3829,13 +3829,13 @@
   },
   {
     "id": 639,
-    "german": "der Mitarbeiter, -",
+    "german": "der Mitarbeiter",
     "english": "employee, co-worker",
     "nextReviewDate": 0
   },
   {
     "id": 640,
-    "german": "übernehmen, übernimmt, übernahm, hat übernommen",
+    "german": "übernehmen",
     "english": "to take over",
     "nextReviewDate": 0
   },
@@ -3859,7 +3859,7 @@
   },
   {
     "id": 644,
-    "german": "die Grundlage, -n",
+    "german": "die Grundlage",
     "english": "basis",
     "nextReviewDate": 0
   },
@@ -3871,55 +3871,55 @@
   },
   {
     "id": 646,
-    "german": "die Leistung, -en",
+    "german": "die Leistung",
     "english": "performance",
     "nextReviewDate": 0
   },
   {
     "id": 647,
-    "german": "vorliegen, liegt vor, lag vor, hat vorgelegen",
+    "german": "vorliegen",
     "english": "to be available, exist",
     "nextReviewDate": 0
   },
   {
     "id": 648,
-    "german": "erfolgen, erfolgt, erfolgte, ist erfolgt",
+    "german": "erfolgen",
     "english": "to take place, occur",
     "nextReviewDate": 0
   },
   {
     "id": 649,
-    "german": "die Beziehung, -en",
+    "german": "die Beziehung",
     "english": "relation, relationship",
     "nextReviewDate": 0
   },
   {
     "id": 650,
-    "german": "zunehmen, nimmt zu, nahm zu, hat zugenommen",
+    "german": "zunehmen",
     "english": "to increase",
     "nextReviewDate": 0
   },
   {
     "id": 651,
-    "german": "das Molekül, -e",
+    "german": "das Molekül",
     "english": "molecule",
     "nextReviewDate": 0
   },
   {
     "id": 652,
-    "german": "stattfinden, findet statt, fand statt, hat stattgefunden",
+    "german": "stattfinden",
     "english": "to take place, occur",
     "nextReviewDate": 0
   },
   {
     "id": 653,
-    "german": "ankommen, kommt an, kam an, ist angekommen",
+    "german": "ankommen",
     "english": "to arrive",
     "nextReviewDate": 0
   },
   {
     "id": 654,
-    "german": "auftreten, tritt auf, trat auf, ist aufgetreten",
+    "german": "auftreten",
     "english": "to appear, occur",
     "nextReviewDate": 0
   },
@@ -3949,13 +3949,13 @@
   },
   {
     "id": 659,
-    "german": "das Bett, -en",
+    "german": "das Bett",
     "english": "bed",
     "nextReviewDate": 0
   },
   {
     "id": 660,
-    "german": "die Höhe, -n",
+    "german": "die Höhe",
     "english": "height, altitude",
     "nextReviewDate": 0
   },
@@ -3985,7 +3985,7 @@
   },
   {
     "id": 665,
-    "german": "das Zimmer, -",
+    "german": "das Zimmer",
     "english": "room",
     "nextReviewDate": 0
   },
@@ -3997,13 +3997,13 @@
   },
   {
     "id": 667,
-    "german": "bauen, baut, baute, hat gebaut",
+    "german": "bauen",
     "english": "to build",
     "nextReviewDate": 0
   },
   {
     "id": 668,
-    "german": "das Verhältnis, -se",
+    "german": "das Verhältnis",
     "english": "relationship",
     "nextReviewDate": 0
   },
@@ -4015,37 +4015,37 @@
   },
   {
     "id": 670,
-    "german": "die Zeitung, -en",
+    "german": "die Zeitung",
     "english": "newspaper",
     "nextReviewDate": 0
   },
   {
     "id": 671,
-    "german": "innere (r, s)",
+    "german": "innere",
     "english": "internal",
     "nextReviewDate": 0
   },
   {
     "id": 672,
-    "german": "beispielsweise, bspw.",
+    "german": "beispielsweise",
     "english": "for example, such as",
     "nextReviewDate": 0
   },
   {
     "id": 673,
-    "german": "die Bedingung, -en",
+    "german": "die Bedingung",
     "english": "condition, stipulation",
     "nextReviewDate": 0
   },
   {
     "id": 674,
-    "german": "das Fenster, -",
+    "german": "das Fenster",
     "english": "window",
     "nextReviewDate": 0
   },
   {
     "id": 675,
-    "german": "der Zug, -̈e",
+    "german": "der Zug",
     "english": "train",
     "nextReviewDate": 0
   },
@@ -4057,7 +4057,7 @@
   },
   {
     "id": 677,
-    "german": "funktionieren, funktioniert, funktionierte, hat funktioniert",
+    "german": "funktionieren",
     "english": "to function, work",
     "nextReviewDate": 0
   },
@@ -4069,7 +4069,7 @@
   },
   {
     "id": 679,
-    "german": "schlafen, schläft, schlief, hat geschlafen",
+    "german": "schlafen",
     "english": "to sleep",
     "nextReviewDate": 0
   },
@@ -4081,7 +4081,7 @@
   },
   {
     "id": 681,
-    "german": "das Werk, -e",
+    "german": "das Werk",
     "english": "work",
     "nextReviewDate": 0
   },
@@ -4093,13 +4093,13 @@
   },
   {
     "id": 683,
-    "german": "der Bürger, -",
+    "german": "der Bürger",
     "english": "citizen",
     "nextReviewDate": 0
   },
   {
     "id": 684,
-    "german": "dienen, dient, diente, hat gedient",
+    "german": "dienen",
     "english": "to serve",
     "nextReviewDate": 0
   },
@@ -4111,115 +4111,115 @@
   },
   {
     "id": 686,
-    "german": "die Firma, -en",
+    "german": "die Firma",
     "english": "firm, company",
     "nextReviewDate": 0
   },
   {
     "id": 687,
-    "german": "die Wirtschaft, -en",
+    "german": "die Wirtschaft",
     "english": "economy, commerce",
     "nextReviewDate": 0
   },
   {
     "id": 688,
-    "german": "stecken, steckt, steckte, hat gesteckt",
+    "german": "stecken",
     "english": "to put, be located",
     "nextReviewDate": 0
   },
   {
     "id": 689,
-    "german": "hoffen, hofft, hoffte, hat gehofft",
+    "german": "hoffen",
     "english": "to hope",
     "nextReviewDate": 0
   },
   {
     "id": 690,
-    "german": "erfahren, erfährt, erfuhr, hat erfahren",
+    "german": "erfahren",
     "english": "to experience, find out",
     "nextReviewDate": 0
   },
   {
     "id": 691,
-    "german": "das Mittel, -",
+    "german": "das Mittel",
     "english": "means",
     "nextReviewDate": 0
   },
   {
     "id": 692,
-    "german": "die Folie, -n",
+    "german": "die Folie",
     "english": "slide, foil",
     "nextReviewDate": 0
   },
   {
     "id": 693,
-    "german": "leisten, leistet, leistete, hat geleistet",
+    "german": "leisten",
     "english": "to perform, achieve, do",
     "nextReviewDate": 0
   },
   {
     "id": 694,
-    "german": "die Tochter, -̈",
+    "german": "die Tochter",
     "english": "daughter",
     "nextReviewDate": 0
   },
   {
     "id": 695,
-    "german": "der Lehrer, -",
+    "german": "der Lehrer",
     "english": "teacher",
     "nextReviewDate": 0
   },
   {
     "id": 696,
-    "german": "passen, passt, passte, hat gepasst",
+    "german": "passen",
     "english": "to fit",
     "nextReviewDate": 0
   },
   {
     "id": 697,
-    "german": "beobachten, beobachtet, beobachtete, hat beobachtet",
+    "german": "beobachten",
     "english": "to observe, watch",
     "nextReviewDate": 0
   },
   {
     "id": 698,
-    "german": "die Einführung, -en",
+    "german": "die Einführung",
     "english": "introduction",
     "nextReviewDate": 0
   },
   {
     "id": 699,
-    "german": "das Element, -e",
+    "german": "das Element",
     "english": "element",
     "nextReviewDate": 0
   },
   {
     "id": 700,
-    "german": "klingen, klingt, klang, hat geklungen",
+    "german": "klingen",
     "english": "to sound",
     "nextReviewDate": 0
   },
   {
     "id": 701,
-    "german": "lieben, liebt, liebte, hat geliebt",
+    "german": "lieben",
     "english": "to love",
     "nextReviewDate": 0
   },
   {
     "id": 702,
-    "german": "die Dame, -n",
+    "german": "die Dame",
     "english": "lady",
     "nextReviewDate": 0
   },
   {
     "id": 703,
-    "german": "die Vorlesung, -en",
+    "german": "die Vorlesung",
     "english": "lecture",
     "nextReviewDate": 0
   },
   {
     "id": 704,
-    "german": "zählen, zählt, zählte, hat gezählt",
+    "german": "zählen",
     "english": "to count",
     "nextReviewDate": 0
   },
@@ -4243,13 +4243,13 @@
   },
   {
     "id": 708,
-    "german": "das Modell, -e",
+    "german": "das Modell",
     "english": "model",
     "nextReviewDate": 0
   },
   {
     "id": 709,
-    "german": "die Bewegung, -en",
+    "german": "die Bewegung",
     "english": "movement, motion",
     "nextReviewDate": 0
   },
@@ -4261,7 +4261,7 @@
   },
   {
     "id": 711,
-    "german": "die Mitte, -n",
+    "german": "die Mitte",
     "english": "middle",
     "nextReviewDate": 0
   },
@@ -4279,7 +4279,7 @@
   },
   {
     "id": 714,
-    "german": "beschäftigen, beschäftigt, beschäftigte, hat beschäftigt",
+    "german": "beschäftigen",
     "english": "to employ, be busy, deal with",
     "nextReviewDate": 0
   },
@@ -4303,61 +4303,61 @@
   },
   {
     "id": 718,
-    "german": "werfen, wirft, warf, hat geworfen",
+    "german": "werfen",
     "english": "to throw",
     "nextReviewDate": 0
   },
   {
     "id": 719,
-    "german": "das Angebot, -e",
+    "german": "das Angebot",
     "english": "offer, supply",
     "nextReviewDate": 0
   },
   {
     "id": 720,
-    "german": "das Projekt, -e",
+    "german": "das Projekt",
     "english": "project",
     "nextReviewDate": 0
   },
   {
     "id": 721,
-    "german": "verkaufen, verkauft, verkaufte, hat verkauft",
+    "german": "verkaufen",
     "english": "to sell",
     "nextReviewDate": 0
   },
   {
     "id": 722,
-    "german": "reagieren, reagiert, reagierte, hat reagiert",
+    "german": "reagieren",
     "english": "to react",
     "nextReviewDate": 0
   },
   {
     "id": 723,
-    "german": "der Autor, -en",
+    "german": "der Autor",
     "english": "author",
     "nextReviewDate": 0
   },
   {
     "id": 724,
-    "german": "kriegen, kriegt, kriegte, hat gekriegt",
+    "german": "kriegen",
     "english": "to get, receive",
     "nextReviewDate": 0
   },
   {
     "id": 725,
-    "german": "zirka, ca.",
+    "german": "zirka",
     "english": "approximately",
     "nextReviewDate": 0
   },
   {
     "id": 726,
-    "german": "EU (Europäische Union)",
+    "german": "Europäische Union",
     "english": "EU",
     "nextReviewDate": 0
   },
   {
     "id": 727,
-    "german": "die Größe, -n",
+    "german": "die Größe",
     "english": "size, height",
     "nextReviewDate": 0
   },
@@ -4375,31 +4375,31 @@
   },
   {
     "id": 730,
-    "german": "der Bruder, -̈",
+    "german": "der Bruder",
     "english": "brother",
     "nextReviewDate": 0
   },
   {
     "id": 731,
-    "german": "beteiligen, beteiligt, beteiligte, hat beteiligt",
+    "german": "beteiligen",
     "english": "to participate, contribute",
     "nextReviewDate": 0
   },
   {
     "id": 732,
-    "german": "die Phase, -n",
+    "german": "die Phase",
     "english": "phase",
     "nextReviewDate": 0
   },
   {
     "id": 733,
-    "german": "angeben, gibt an, gab an, hat angegeben",
+    "german": "angeben",
     "english": "to claim, declare, show off",
     "nextReviewDate": 0
   },
   {
     "id": 734,
-    "german": "die Reise, -n",
+    "german": "die Reise",
     "english": "journey, trip",
     "nextReviewDate": 0
   },
@@ -4411,7 +4411,7 @@
   },
   {
     "id": 736,
-    "german": "der Zustand, -̈e",
+    "german": "der Zustand",
     "english": "condition, state",
     "nextReviewDate": 0
   },
@@ -4422,19 +4422,19 @@
   },
   {
     "id": 738,
-    "german": "die Reihe, -n",
+    "german": "die Reihe",
     "english": "row, line",
     "nextReviewDate": 0
   },
   {
     "id": 739,
-    "german": "die Natur, -en",
+    "german": "die Natur",
     "english": "nature",
     "nextReviewDate": 0
   },
   {
     "id": 740,
-    "german": "rechnen, rechnet, rechnete, hat gerechnet",
+    "german": "rechnen",
     "english": "to calculate, compute",
     "nextReviewDate": 0
   },
@@ -4452,13 +4452,13 @@
   },
   {
     "id": 743,
-    "german": "entdecken, entdeckt, entdeckte, hat entdeckt",
+    "german": "entdecken",
     "english": "to discover",
     "nextReviewDate": 0
   },
   {
     "id": 744,
-    "german": "dauern, dauert, dauerte, hat gedauert",
+    "german": "dauern",
     "english": "to last, take (time)",
     "nextReviewDate": 0
   },
@@ -4482,7 +4482,7 @@
   },
   {
     "id": 748,
-    "german": "das Haar, -e",
+    "german": "das Haar",
     "english": "hair",
     "nextReviewDate": 0
   },
@@ -4494,7 +4494,7 @@
   },
   {
     "id": 750,
-    "german": "spüren, spürt, spürte, hat gespürt",
+    "german": "spüren",
     "english": "to sense, notice, feel",
     "nextReviewDate": 0
   },
@@ -4512,7 +4512,7 @@
   },
   {
     "id": 753,
-    "german": "der Rahmen, -",
+    "german": "der Rahmen",
     "english": "frame, framework",
     "nextReviewDate": 0
   },
@@ -4524,7 +4524,7 @@
   },
   {
     "id": 755,
-    "german": "die Einheit, -en",
+    "german": "die Einheit",
     "english": "unity, unit, entity",
     "nextReviewDate": 0
   },
@@ -4536,25 +4536,25 @@
   },
   {
     "id": 757,
-    "german": "feststellen, stellt fest, stellte fest, hat festgestellt",
+    "german": "feststellen",
     "english": "to establish, detect, determine",
     "nextReviewDate": 0
   },
   {
     "id": 758,
-    "german": "der Stoff, -e",
+    "german": "der Stoff",
     "english": "material, substance, fabric",
     "nextReviewDate": 0
   },
   {
     "id": 759,
-    "german": "die Rede, -n",
+    "german": "die Rede",
     "english": "speech, talk",
     "nextReviewDate": 0
   },
   {
     "id": 760,
-    "german": "unterstützen, unterstützt, unterstützte, hat unterstützt",
+    "german": "unterstützen",
     "english": "to support",
     "nextReviewDate": 0
   },
@@ -4572,7 +4572,7 @@
   },
   {
     "id": 763,
-    "german": "die Schweiz, -en",
+    "german": "die Schweiz",
     "english": "Switzerland",
     "nextReviewDate": 0
   },
@@ -4584,7 +4584,7 @@
   },
   {
     "id": 765,
-    "german": "das Geschäft, -e",
+    "german": "das Geschäft",
     "english": "business, shop",
     "nextReviewDate": 0
   },
@@ -4596,19 +4596,19 @@
   },
   {
     "id": 767,
-    "german": "der Anteil, -e",
+    "german": "der Anteil",
     "english": "share, portion",
     "nextReviewDate": 0
   },
   {
     "id": 768,
-    "german": "die Angabe, -n",
+    "german": "die Angabe",
     "english": "information, statement",
     "nextReviewDate": 0
   },
   {
     "id": 769,
-    "german": "das Team, -s",
+    "german": "das Team",
     "english": "team",
     "nextReviewDate": 0
   },
@@ -4620,13 +4620,13 @@
   },
   {
     "id": 771,
-    "german": "der Sommer, -",
+    "german": "der Sommer",
     "english": "summer",
     "nextReviewDate": 0
   },
   {
     "id": 772,
-    "german": "das Hotel, -s",
+    "german": "das Hotel",
     "english": "hotel",
     "nextReviewDate": 0
   },
@@ -4650,13 +4650,13 @@
   },
   {
     "id": 776,
-    "german": "die Sicherheit, -en",
+    "german": "die Sicherheit",
     "english": "security, safety",
     "nextReviewDate": 0
   },
   {
     "id": 777,
-    "german": "SPD (Sozialdemokratische Partei Deutschlands)",
+    "german": "Sozialdemokratische Partei Deutschlands",
     "english": "SPD",
     "nextReviewDate": 0
   },
@@ -4674,61 +4674,61 @@
   },
   {
     "id": 780,
-    "german": "der Einsatz, -̈e",
+    "german": "der Einsatz",
     "english": "insert, use, application, assignment",
     "nextReviewDate": 0
   },
   {
     "id": 781,
-    "german": "liefern, liefert, lieferte, hat geliefert",
+    "german": "liefern",
     "english": "to deliver, supply",
     "nextReviewDate": 0
   },
   {
     "id": 782,
-    "german": "betonen, betont, betonte, hat betont",
+    "german": "betonen",
     "english": "to stress",
     "nextReviewDate": 0
   },
   {
     "id": 783,
-    "german": "die Erde, -n",
+    "german": "die Erde",
     "english": "earth, ground, soil",
     "nextReviewDate": 0
   },
   {
     "id": 784,
-    "german": "die Studie, -n",
+    "german": "die Studie",
     "english": "study",
     "nextReviewDate": 0
   },
   {
     "id": 785,
-    "german": "vorne, vorn",
+    "german": "vorne",
     "english": "at/to the front",
     "nextReviewDate": 0
   },
   {
     "id": 786,
-    "german": "rechte (r, s)",
+    "german": "rechte",
     "english": "right",
     "nextReviewDate": 0
   },
   {
     "id": 787,
-    "german": "die Meinung, -en",
+    "german": "die Meinung",
     "english": "opinion",
     "nextReviewDate": 0
   },
   {
     "id": 788,
-    "german": "drehen, dreht, drehte, hat gedreht",
+    "german": "drehen",
     "english": "to turn",
     "nextReviewDate": 0
   },
   {
     "id": 789,
-    "german": "der Künstler, -",
+    "german": "der Künstler",
     "english": "artist",
     "nextReviewDate": 0
   },
@@ -4740,7 +4740,7 @@
   },
   {
     "id": 791,
-    "german": "der Versuch, -e",
+    "german": "der Versuch",
     "english": "attempt, experiment",
     "nextReviewDate": 0
   },
@@ -4752,13 +4752,13 @@
   },
   {
     "id": 793,
-    "german": "bezahlen, bezahlt, bezahlte, hat bezahlt",
+    "german": "bezahlen",
     "english": "to pay",
     "nextReviewDate": 0
   },
   {
     "id": 794,
-    "german": "die Eigenschaft, -en",
+    "german": "die Eigenschaft",
     "english": "quality",
     "nextReviewDate": 0
   },
@@ -4770,13 +4770,13 @@
   },
   {
     "id": 796,
-    "german": "die Methode, -n",
+    "german": "die Methode",
     "english": "method",
     "nextReviewDate": 0
   },
   {
     "id": 797,
-    "german": "die Ordnung, -en",
+    "german": "die Ordnung",
     "english": "order, tidiness",
     "nextReviewDate": 0
   },
@@ -4788,7 +4788,7 @@
   },
   {
     "id": 799,
-    "german": "die Wahl, -en",
+    "german": "die Wahl",
     "english": "choice, election",
     "nextReviewDate": 0
   },
@@ -4800,25 +4800,25 @@
   },
   {
     "id": 801,
-    "german": "erfüllen, erfüllt, erfüllte, hat erfüllt",
+    "german": "erfüllen",
     "english": "to grant, fulfill",
     "nextReviewDate": 0
   },
   {
     "id": 802,
-    "german": "die Mama, -s",
+    "german": "die Mama",
     "english": "mommy",
     "nextReviewDate": 0
   },
   {
     "id": 803,
-    "german": "die Region, -en",
+    "german": "die Region",
     "english": "region",
     "nextReviewDate": 0
   },
   {
     "id": 804,
-    "german": "der Sonntag, -e",
+    "german": "der Sonntag",
     "english": "Sunday",
     "nextReviewDate": 0
   },
@@ -4830,13 +4830,13 @@
   },
   {
     "id": 806,
-    "german": "die Nummer, -n",
+    "german": "die Nummer",
     "english": "number",
     "nextReviewDate": 0
   },
   {
     "id": 807,
-    "german": "lächeln, lächelt, lächelte, hat gelächelt",
+    "german": "lächeln",
     "english": "to smile",
     "nextReviewDate": 0
   },
@@ -4848,7 +4848,7 @@
   },
   {
     "id": 809,
-    "german": "überzeugen, überzeugt, überzeugte, hat überzeugt",
+    "german": "überzeugen",
     "english": "to convince",
     "nextReviewDate": 0
   },
@@ -4866,7 +4866,7 @@
   },
   {
     "id": 812,
-    "german": "das Elektron, -en",
+    "german": "das Elektron",
     "english": "electron",
     "nextReviewDate": 0
   },
@@ -4878,7 +4878,7 @@
   },
   {
     "id": 814,
-    "german": "die Freiheit, -en",
+    "german": "die Freiheit",
     "english": "freedom",
     "nextReviewDate": 0
   },
@@ -4908,13 +4908,13 @@
   },
   {
     "id": 819,
-    "german": "die Ebene, -n",
+    "german": "die Ebene",
     "english": "plane, level",
     "nextReviewDate": 0
   },
   {
     "id": 820,
-    "german": "besuchen, besucht, besuchte, hat besucht",
+    "german": "besuchen",
     "english": "to visit",
     "nextReviewDate": 0
   },
@@ -4926,7 +4926,7 @@
   },
   {
     "id": 822,
-    "german": "der Spieler, -",
+    "german": "der Spieler",
     "english": "player",
     "nextReviewDate": 0
   },
@@ -4938,19 +4938,19 @@
   },
   {
     "id": 824,
-    "german": "fliegen, fliegt, flog, ist geflogen",
+    "german": "fliegen",
     "english": "to fly",
     "nextReviewDate": 0
   },
   {
     "id": 825,
-    "german": "der Hund, -e",
+    "german": "der Hund",
     "english": "dog",
     "nextReviewDate": 0
   },
   {
     "id": 826,
-    "german": "antworten, antwortet, antwortete, hat geantwortet",
+    "german": "antworten",
     "english": "to answer",
     "nextReviewDate": 0
   },
@@ -4962,7 +4962,7 @@
   },
   {
     "id": 828,
-    "german": "die Wand, -̈e",
+    "german": "die Wand",
     "english": "wall",
     "nextReviewDate": 0
   },
@@ -4986,7 +4986,7 @@
   },
   {
     "id": 832,
-    "german": "zahlen, zahlt, zahlte, hat gezahlt",
+    "german": "zahlen",
     "english": "to pay",
     "nextReviewDate": 0
   },
@@ -4998,13 +4998,13 @@
   },
   {
     "id": 834,
-    "german": "das Feld, -er",
+    "german": "das Feld",
     "english": "field",
     "nextReviewDate": 0
   },
   {
     "id": 835,
-    "german": "verdienen, verdient, verdiente, hat verdient",
+    "german": "verdienen",
     "english": "to earn, deserve",
     "nextReviewDate": 0
   },
@@ -5016,19 +5016,19 @@
   },
   {
     "id": 837,
-    "german": "die Sekunde, -n",
+    "german": "die Sekunde",
     "english": "second",
     "nextReviewDate": 0
   },
   {
     "id": 838,
-    "german": "der Brief, -e",
+    "german": "der Brief",
     "english": "letter",
     "nextReviewDate": 0
   },
   {
     "id": 839,
-    "german": "das Mitglied, -er",
+    "german": "das Mitglied",
     "english": "member",
     "nextReviewDate": 0
   },
@@ -5040,13 +5040,13 @@
   },
   {
     "id": 841,
-    "german": "die Gefahr, -en",
+    "german": "die Gefahr",
     "english": "danger, risk",
     "nextReviewDate": 0
   },
   {
     "id": 842,
-    "german": "binden, bindet, band, hat gebunden",
+    "german": "binden",
     "english": "to tie, bind",
     "nextReviewDate": 0
   },
@@ -5058,13 +5058,13 @@
   },
   {
     "id": 844,
-    "german": "die Liebe, -n",
+    "german": "die Liebe",
     "english": "love",
     "nextReviewDate": 0
   },
   {
     "id": 845,
-    "german": "der Beginn, -e",
+    "german": "der Beginn",
     "english": "beginning",
     "nextReviewDate": 0
   },
@@ -5088,37 +5088,37 @@
   },
   {
     "id": 849,
-    "german": "die Wirkung, -en",
+    "german": "die Wirkung",
     "english": "effect",
     "nextReviewDate": 0
   },
   {
     "id": 850,
-    "german": "die Bildung, -en",
+    "german": "die Bildung",
     "english": "education",
     "nextReviewDate": 0
   },
   {
     "id": 851,
-    "german": "das Blut, -e",
+    "german": "das Blut",
     "english": "blood",
     "nextReviewDate": 0
   },
   {
     "id": 852,
-    "german": "das Meer, -e",
+    "german": "das Meer",
     "english": "sea, ocean",
     "nextReviewDate": 0
   },
   {
     "id": 853,
-    "german": "die Anzahl, -en",
+    "german": "die Anzahl",
     "english": "number",
     "nextReviewDate": 0
   },
   {
     "id": 854,
-    "german": "die Veränderung, -en",
+    "german": "die Veränderung",
     "english": "change",
     "nextReviewDate": 0
   },
@@ -5130,19 +5130,19 @@
   },
   {
     "id": 856,
-    "german": "der Mund, -̈er",
+    "german": "der Mund",
     "english": "mouth",
     "nextReviewDate": 0
   },
   {
     "id": 857,
-    "german": "berechnen, berechnet, berechnete, hat berechnet",
+    "german": "berechnen",
     "english": "to calculate, charge",
     "nextReviewDate": 0
   },
   {
     "id": 858,
-    "german": "betragen, beträgt, betrug, hat betragen",
+    "german": "betragen",
     "english": "to amount",
     "nextReviewDate": 0
   },
@@ -5154,13 +5154,13 @@
   },
   {
     "id": 860,
-    "german": "die Untersuchung, -en",
+    "german": "die Untersuchung",
     "english": "examination",
     "nextReviewDate": 0
   },
   {
     "id": 861,
-    "german": "der Fehler, -",
+    "german": "der Fehler",
     "english": "mistake, error",
     "nextReviewDate": 0
   },
@@ -5172,19 +5172,19 @@
   },
   {
     "id": 863,
-    "german": "aufbauen, baut auf, baute auf, hat aufgebaut",
+    "german": "aufbauen",
     "english": "to build up",
     "nextReviewDate": 0
   },
   {
     "id": 864,
-    "german": "die Sonne, -n",
+    "german": "die Sonne",
     "english": "sun",
     "nextReviewDate": 0
   },
   {
     "id": 865,
-    "german": "das Prinzip, -ien",
+    "german": "das Prinzip",
     "english": "principle",
     "nextReviewDate": 0
   },
@@ -5196,43 +5196,43 @@
   },
   {
     "id": 867,
-    "german": "der Kampf, -̈e",
+    "german": "der Kampf",
     "english": "fight, struggle",
     "nextReviewDate": 0
   },
   {
     "id": 868,
-    "german": "die Verfügung, -en",
+    "german": "die Verfügung",
     "english": "disposal",
     "nextReviewDate": 0
   },
   {
     "id": 869,
-    "german": "feiern, feiert, feierte, hat gefeiert",
+    "german": "feiern",
     "english": "to celebrate",
     "nextReviewDate": 0
   },
   {
     "id": 870,
-    "german": "das Programm, -e",
+    "german": "das Programm",
     "english": "program",
     "nextReviewDate": 0
   },
   {
     "id": 871,
-    "german": "linke (r, s)",
+    "german": "linke",
     "english": "left",
     "nextReviewDate": 0
   },
   {
     "id": 872,
-    "german": "der Einfluss, -̈e",
+    "german": "der Einfluss",
     "english": "influence",
     "nextReviewDate": 0
   },
   {
     "id": 873,
-    "german": "die Temperatur, -en",
+    "german": "die Temperatur",
     "english": "temperature",
     "nextReviewDate": 0
   },
@@ -5244,13 +5244,13 @@
   },
   {
     "id": 875,
-    "german": "mitteilen, teilt mit, teilte mit, hat mitgeteilt",
+    "german": "mitteilen",
     "english": "to inform",
     "nextReviewDate": 0
   },
   {
     "id": 876,
-    "german": "das Verfahren, -",
+    "german": "das Verfahren",
     "english": "method, process, technique",
     "nextReviewDate": 0
   },
@@ -5262,13 +5262,13 @@
   },
   {
     "id": 878,
-    "german": "beziehen, bezieht, bezog, hat bezogen",
+    "german": "beziehen",
     "english": "to refer, put, get",
     "nextReviewDate": 0
   },
   {
     "id": 879,
-    "german": "verlangen, verlangt, verlangte, hat verlangt",
+    "german": "verlangen",
     "english": "to request, demand",
     "nextReviewDate": 0
   },
@@ -5280,7 +5280,7 @@
   },
   {
     "id": 881,
-    "german": "die Analyse, -n",
+    "german": "die Analyse",
     "english": "analysis",
     "nextReviewDate": 0
   },
@@ -5298,19 +5298,19 @@
   },
   {
     "id": 884,
-    "german": "das Bein, -e",
+    "german": "das Bein",
     "english": "leg",
     "nextReviewDate": 0
   },
   {
     "id": 885,
-    "german": "das Glas, -̈er",
+    "german": "das Glas",
     "english": "glass",
     "nextReviewDate": 0
   },
   {
     "id": 886,
-    "german": "untersuchen, untersucht, untersuchte, hat untersucht",
+    "german": "untersuchen",
     "english": "to examine",
     "nextReviewDate": 0
   },
@@ -5322,13 +5322,13 @@
   },
   {
     "id": 888,
-    "german": "die Sorge, -n",
+    "german": "die Sorge",
     "english": "worry",
     "nextReviewDate": 0
   },
   {
     "id": 889,
-    "german": "der Himmel, -",
+    "german": "der Himmel",
     "english": "sky, heaven",
     "nextReviewDate": 0
   },
@@ -5346,7 +5346,7 @@
   },
   {
     "id": 892,
-    "german": "die Kirche, -n",
+    "german": "die Kirche",
     "english": "church",
     "nextReviewDate": 0
   },
@@ -5358,7 +5358,7 @@
   },
   {
     "id": 894,
-    "german": "CDU (Christlich Demokratische Union Deutschlands)",
+    "german": "Christlich Demokratische Union Deutschlands",
     "english": "CDU",
     "nextReviewDate": 0
   },
@@ -5370,7 +5370,7 @@
   },
   {
     "id": 896,
-    "german": "messen, misst, maß, hat gemessen",
+    "german": "messen",
     "english": "to measure",
     "nextReviewDate": 0
   },
@@ -5388,13 +5388,13 @@
   },
   {
     "id": 899,
-    "german": "der Verein, -e",
+    "german": "der Verein",
     "english": "association, club",
     "nextReviewDate": 0
   },
   {
     "id": 900,
-    "german": "das Atom, -e",
+    "german": "das Atom",
     "english": "atom",
     "nextReviewDate": 0
   },
@@ -5406,19 +5406,19 @@
   },
   {
     "id": 902,
-    "german": "sinken, sinkt, sank, ist gesunken",
+    "german": "sinken",
     "english": "to sink",
     "nextReviewDate": 0
   },
   {
     "id": 903,
-    "german": "kosten, kostet, kostete, hat gekostet",
+    "german": "kosten",
     "english": "to cost",
     "nextReviewDate": 0
   },
   {
     "id": 904,
-    "german": "die Vorstellung, -en",
+    "german": "die Vorstellung",
     "english": "idea, introduction, performance",
     "nextReviewDate": 0
   },
@@ -5430,19 +5430,19 @@
   },
   {
     "id": 906,
-    "german": "teilen, teilt, teilte, hat geteilt",
+    "german": "teilen",
     "english": "to divide, share",
     "nextReviewDate": 0
   },
   {
     "id": 907,
-    "german": "der Typ, -en",
+    "german": "der Typ",
     "english": "type",
     "nextReviewDate": 0
   },
   {
     "id": 908,
-    "german": "stammen, stammt, stammte, hat gestammt",
+    "german": "stammen",
     "english": "to come (from), descend",
     "nextReviewDate": 0
   },
@@ -5460,31 +5460,31 @@
   },
   {
     "id": 911,
-    "german": "der Faktor, -en",
+    "german": "der Faktor",
     "english": "factor",
     "nextReviewDate": 0
   },
   {
     "id": 912,
-    "german": "die Bindung, -en",
+    "german": "die Bindung",
     "english": "relationship, attachment",
     "nextReviewDate": 0
   },
   {
     "id": 913,
-    "german": "die Literatur, -en",
+    "german": "die Literatur",
     "english": "literature",
     "nextReviewDate": 0
   },
   {
     "id": 914,
-    "german": "überraschen, überrascht, überraschte, hat überrascht",
+    "german": "überraschen",
     "english": "to surprise",
     "nextReviewDate": 0
   },
   {
     "id": 915,
-    "german": "bestätigen, bestätigt, bestätigte, hat bestätigt",
+    "german": "bestätigen",
     "english": "to confirm, endorse",
     "nextReviewDate": 0
   },
@@ -5496,7 +5496,7 @@
   },
   {
     "id": 917,
-    "german": "der Abschnitt, -e",
+    "german": "der Abschnitt",
     "english": "section, paragraph, chapter, passage",
     "nextReviewDate": 0
   },
@@ -5532,55 +5532,55 @@
   },
   {
     "id": 923,
-    "german": "die Produktion, -en",
+    "german": "die Produktion",
     "english": "production",
     "nextReviewDate": 0
   },
   {
     "id": 924,
-    "german": "drücken, drückt, drückte, hat gedrückt",
+    "german": "drücken",
     "english": "to press, push",
     "nextReviewDate": 0
   },
   {
     "id": 925,
-    "german": "drohen, droht, drohte, hat gedroht",
+    "german": "drohen",
     "english": "to threaten",
     "nextReviewDate": 0
   },
   {
     "id": 926,
-    "german": "die Linie, -n",
+    "german": "die Linie",
     "english": "line",
     "nextReviewDate": 0
   },
   {
     "id": 927,
-    "german": "das Gas, -e",
+    "german": "das Gas",
     "english": "gas",
     "nextReviewDate": 0
   },
   {
     "id": 928,
-    "german": "schicken, schickt, schickte, hat geschickt",
+    "german": "schicken",
     "english": "to send",
     "nextReviewDate": 0
   },
   {
     "id": 929,
-    "german": "die Hälfte, -n",
+    "german": "die Hälfte",
     "english": "half",
     "nextReviewDate": 0
   },
   {
     "id": 930,
-    "german": "der Kontakt, -e",
+    "german": "der Kontakt",
     "english": "contact",
     "nextReviewDate": 0
   },
   {
     "id": 931,
-    "german": "das Interview, -s",
+    "german": "das Interview",
     "english": "interview",
     "nextReviewDate": 0
   },
@@ -5592,13 +5592,13 @@
   },
   {
     "id": 933,
-    "german": "reisen, reist, reiste, ist gereist",
+    "german": "reisen",
     "english": "to travel",
     "nextReviewDate": 0
   },
   {
     "id": 934,
-    "german": "der Berg, -e",
+    "german": "der Berg",
     "english": "hill, mountain",
     "nextReviewDate": 0
   },
@@ -5610,73 +5610,73 @@
   },
   {
     "id": 936,
-    "german": "trennen, trennt, trennte, hat getrennt",
+    "german": "trennen",
     "english": "to separate",
     "nextReviewDate": 0
   },
   {
     "id": 937,
-    "german": "benötigen, benötigt, benötigte, hat benötigt",
+    "german": "benötigen",
     "english": "to require",
     "nextReviewDate": 0
   },
   {
     "id": 938,
-    "german": "die Erinnerung, -en",
+    "german": "die Erinnerung",
     "english": "memory",
     "nextReviewDate": 0
   },
   {
     "id": 939,
-    "german": "verhindern, verhindert, verhinderte, hat verhindert",
+    "german": "verhindern",
     "english": "to prevent",
     "nextReviewDate": 0
   },
   {
     "id": 940,
-    "german": "die Sicht, -en",
+    "german": "die Sicht",
     "english": "view, visibility",
     "nextReviewDate": 0
   },
   {
     "id": 941,
-    "german": "der Dollar, -",
+    "german": "der Dollar",
     "english": "dollar",
     "nextReviewDate": 0
   },
   {
     "id": 942,
-    "german": "leiden, leidet, litt, hat gelitten",
+    "german": "leiden",
     "english": "to suffer",
     "nextReviewDate": 0
   },
   {
     "id": 943,
-    "german": "der Anspruch, -̈e",
+    "german": "der Anspruch",
     "english": "claim",
     "nextReviewDate": 0
   },
   {
     "id": 944,
-    "german": "die Position, -en",
+    "german": "die Position",
     "english": "position",
     "nextReviewDate": 0
   },
   {
     "id": 945,
-    "german": "der Sport, -e",
+    "german": "der Sport",
     "english": "sport",
     "nextReviewDate": 0
   },
   {
     "id": 946,
-    "german": "BGB (Bürgerliches Gesetzbuch)",
+    "german": "Bürgerliches Gesetzbuch",
     "english": "civil code",
     "nextReviewDate": 0
   },
   {
     "id": 947,
-    "german": "die Nachfrage, -n",
+    "german": "die Nachfrage",
     "english": "demand",
     "nextReviewDate": 0
   },
@@ -5688,7 +5688,7 @@
   },
   {
     "id": 949,
-    "german": "anschauen, schaut an, schaute an, hat angeschaut",
+    "german": "anschauen",
     "english": "to look at, watch",
     "nextReviewDate": 0
   },
@@ -5706,19 +5706,19 @@
   },
   {
     "id": 952,
-    "german": "richten, richtet, richtete, hat gerichtet",
+    "german": "richten",
     "english": "to direct, repair, follow",
     "nextReviewDate": 0
   },
   {
     "id": 953,
-    "german": "das Institut, -e",
+    "german": "das Institut",
     "english": "institute",
     "nextReviewDate": 0
   },
   {
     "id": 954,
-    "german": "der Plan, -̈e",
+    "german": "der Plan",
     "english": "plan",
     "nextReviewDate": 0
   },
@@ -5730,13 +5730,13 @@
   },
   {
     "id": 956,
-    "german": "das Tor, -e",
+    "german": "das Tor",
     "english": "gate, goal",
     "nextReviewDate": 0
   },
   {
     "id": 957,
-    "german": "der Betrieb, -e",
+    "german": "der Betrieb",
     "english": "business, operation",
     "nextReviewDate": 0
   },
@@ -5748,37 +5748,37 @@
   },
   {
     "id": 959,
-    "german": "das Dorf, -̈er",
+    "german": "das Dorf",
     "english": "village",
     "nextReviewDate": 0
   },
   {
     "id": 960,
-    "german": "eignen (sich), eignet, eignete, hat geeignet",
+    "german": "eignen",
     "english": "to be suitable",
     "nextReviewDate": 0
   },
   {
     "id": 961,
-    "german": "die Klasse, -n",
+    "german": "die Klasse",
     "english": "class, classroom, grade",
     "nextReviewDate": 0
   },
   {
     "id": 962,
-    "german": "eingehen, geht ein, ging ein, ist eingegangen",
+    "german": "eingehen",
     "english": "to mention, discuss, react to, cater",
     "nextReviewDate": 0
   },
   {
     "id": 963,
-    "german": "erlauben, erlaubt, erlaubte, hat erlaubt",
+    "german": "erlauben",
     "english": "to allow, permit",
     "nextReviewDate": 0
   },
   {
     "id": 964,
-    "german": "treiben, treibt, trieb, hat getrieben",
+    "german": "treiben",
     "english": "to drive, pursue",
     "nextReviewDate": 0
   },
@@ -5790,13 +5790,13 @@
   },
   {
     "id": 966,
-    "german": "aufstehen, steht auf, stand auf, ist aufgestanden",
+    "german": "aufstehen",
     "english": "to stand up, get up",
     "nextReviewDate": 0
   },
   {
     "id": 967,
-    "german": "der Absatz, -̈e (Abs.)",
+    "german": "der Absatz",
     "english": "section, sales, paragraph, heel",
     "nextReviewDate": 0
   },
@@ -5808,19 +5808,19 @@
   },
   {
     "id": 969,
-    "german": "der Vertrag, -̈e",
+    "german": "der Vertrag",
     "english": "contract",
     "nextReviewDate": 0
   },
   {
     "id": 970,
-    "german": "der Ausdruck, -̈e",
+    "german": "der Ausdruck",
     "english": "term, expression",
     "nextReviewDate": 0
   },
   {
     "id": 971,
-    "german": "geraten, gerät, geriet, ist geraten",
+    "german": "geraten",
     "english": "to get into",
     "nextReviewDate": 0
   },
@@ -5832,31 +5832,31 @@
   },
   {
     "id": 973,
-    "german": "schweigen, schweigt, schwieg, hat geschwiegen",
+    "german": "schweigen",
     "english": "to remain silent",
     "nextReviewDate": 0
   },
   {
     "id": 974,
-    "german": "die Schwester, -n",
+    "german": "die Schwester",
     "english": "sister",
     "nextReviewDate": 0
   },
   {
     "id": 975,
-    "german": "der Chef, -s",
+    "german": "der Chef",
     "english": "head, leader, boss",
     "nextReviewDate": 0
   },
   {
     "id": 976,
-    "german": "greifen, greift, griff, hat gegriffen",
+    "german": "greifen",
     "english": "to take hold of, reach",
     "nextReviewDate": 0
   },
   {
     "id": 977,
-    "german": "das Risiko, -s",
+    "german": "das Risiko",
     "english": "risk",
     "nextReviewDate": 0
   },
@@ -5868,43 +5868,43 @@
   },
   {
     "id": 979,
-    "german": "die Tabelle, -n",
+    "german": "die Tabelle",
     "english": "table, chart",
     "nextReviewDate": 0
   },
   {
     "id": 980,
-    "german": "ermöglichen, ermöglicht, ermöglichte, hat ermöglicht",
+    "german": "ermöglichen",
     "english": "to enable, allow",
     "nextReviewDate": 0
   },
   {
     "id": 981,
-    "german": "der Freitag, -e",
+    "german": "der Freitag",
     "english": "Friday",
     "nextReviewDate": 0
   },
   {
     "id": 982,
-    "german": "der Hinweis, -e",
+    "german": "der Hinweis",
     "english": "instruction, hint",
     "nextReviewDate": 0
   },
   {
     "id": 983,
-    "german": "der Vorteil, -e",
+    "german": "der Vorteil",
     "english": "advantage",
     "nextReviewDate": 0
   },
   {
     "id": 984,
-    "german": "das Protein, -e",
+    "german": "das Protein",
     "english": "protein",
     "nextReviewDate": 0
   },
   {
     "id": 985,
-    "german": "der Gewinn, -e",
+    "german": "der Gewinn",
     "english": "profit",
     "nextReviewDate": 0
   },
@@ -5916,13 +5916,13 @@
   },
   {
     "id": 987,
-    "german": "der März, -e",
+    "german": "der März",
     "english": "March",
     "nextReviewDate": 0
   },
   {
     "id": 988,
-    "german": "wiederholen, wiederholt, wiederholte, hat wiederholt",
+    "german": "wiederholen",
     "english": "to repeat",
     "nextReviewDate": 0
   },
@@ -5934,7 +5934,7 @@
   },
   {
     "id": 990,
-    "german": "die Darstellung, -en",
+    "german": "die Darstellung",
     "english": "presentation, description, depiction",
     "nextReviewDate": 0
   },
@@ -5946,13 +5946,13 @@
   },
   {
     "id": 992,
-    "german": "der Traum, -̈e",
+    "german": "der Traum",
     "english": "dream",
     "nextReviewDate": 0
   },
   {
     "id": 993,
-    "german": "behandeln, behandelt, behandelte, hat behandelt",
+    "german": "behandeln",
     "english": "to treat",
     "nextReviewDate": 0
   },
@@ -5964,43 +5964,43 @@
   },
   {
     "id": 995,
-    "german": "aufhören, hört auf, hörte auf, hat aufgehört",
+    "german": "aufhören",
     "english": "to stop",
     "nextReviewDate": 0
   },
   {
     "id": 996,
-    "german": "schützen, schützt, schützte, hat geschützt",
+    "german": "schützen",
     "english": "to protect",
     "nextReviewDate": 0
   },
   {
     "id": 997,
-    "german": "diskutieren, diskutiert, diskutierte, hat diskutiert",
+    "german": "diskutieren",
     "english": "to discuss",
     "nextReviewDate": 0
   },
   {
     "id": 998,
-    "german": "die Ferse, -n",
+    "german": "die Ferse",
     "english": "heel",
     "nextReviewDate": 0
   },
   {
     "id": 999,
-    "german": "der Sprecher, -",
+    "german": "der Sprecher",
     "english": "speaker, spokesperson",
     "nextReviewDate": 0
   },
   {
     "id": 1000,
-    "german": "produzieren, produziert, produzierte, hat produziert",
+    "german": "produzieren",
     "english": "to produce",
     "nextReviewDate": 0
   },
   {
     "id": 1001,
-    "german": "die Kritik, -en",
+    "german": "die Kritik",
     "english": "criticism, review",
     "nextReviewDate": 0
   },
@@ -6012,19 +6012,19 @@
   },
   {
     "id": 1003,
-    "german": "der Trainer, -",
+    "german": "der Trainer",
     "english": "coach",
     "nextReviewDate": 0
   },
   {
     "id": 1004,
-    "german": "der April, -e",
+    "german": "der April",
     "english": "April",
     "nextReviewDate": 0
   },
   {
     "id": 1005,
-    "german": "melden, meldet, meldete, hat gemeldet",
+    "german": "melden",
     "english": "to report, register",
     "nextReviewDate": 0
   },
@@ -6036,7 +6036,7 @@
   },
   {
     "id": 1007,
-    "german": "das Opfer, -",
+    "german": "das Opfer",
     "english": "sacrifice, victim",
     "nextReviewDate": 0
   },
@@ -6054,37 +6054,37 @@
   },
   {
     "id": 1010,
-    "german": "Westen, West-",
+    "german": "Westen",
     "english": "west",
     "nextReviewDate": 0
   },
   {
     "id": 1011,
-    "german": "der Titel, -",
+    "german": "der Titel",
     "english": "title",
     "nextReviewDate": 0
   },
   {
     "id": 1012,
-    "german": "der Eindruck, -̈e",
+    "german": "der Eindruck",
     "english": "impression",
     "nextReviewDate": 0
   },
   {
     "id": 1013,
-    "german": "der Baum, -̈e",
+    "german": "der Baum",
     "english": "tree",
     "nextReviewDate": 0
   },
   {
     "id": 1014,
-    "german": "lauten, lautet, lautete, hat gelautet",
+    "german": "lauten",
     "english": "to be (answer)",
     "nextReviewDate": 0
   },
   {
     "id": 1015,
-    "german": "die Diskussion, -en",
+    "german": "die Diskussion",
     "english": "discussion, debate",
     "nextReviewDate": 0
   },
@@ -6096,19 +6096,19 @@
   },
   {
     "id": 1017,
-    "german": "der Student, -en",
+    "german": "der Student",
     "english": "student",
     "nextReviewDate": 0
   },
   {
     "id": 1018,
-    "german": "die Bevölkerung, -en",
+    "german": "die Bevölkerung",
     "english": "population, people",
     "nextReviewDate": 0
   },
   {
     "id": 1019,
-    "german": "der Finger, -",
+    "german": "der Finger",
     "english": "finger",
     "nextReviewDate": 0
   },
@@ -6126,25 +6126,25 @@
   },
   {
     "id": 1022,
-    "german": "der Abstand, -̈e",
+    "german": "der Abstand",
     "english": "distance",
     "nextReviewDate": 0
   },
   {
     "id": 1023,
-    "german": "die Schulter, -n",
+    "german": "die Schulter",
     "english": "shoulder",
     "nextReviewDate": 0
   },
   {
     "id": 1024,
-    "german": "die Maßnahme, -n",
+    "german": "die Maßnahme",
     "english": "measure",
     "nextReviewDate": 0
   },
   {
     "id": 1025,
-    "german": "das Band, -̈er",
+    "german": "das Band",
     "english": "volume, tome",
     "nextReviewDate": 0
   },
@@ -6156,25 +6156,25 @@
   },
   {
     "id": 1027,
-    "german": "derjenige, diejenige, dasjenige",
+    "german": "derjenige",
     "english": "the one (who, that)",
     "nextReviewDate": 0
   },
   {
     "id": 1028,
-    "german": "der Wald, -̈er",
+    "german": "der Wald",
     "english": "forest, woods",
     "nextReviewDate": 0
   },
   {
     "id": 1029,
-    "german": "die Insel, -n",
+    "german": "die Insel",
     "english": "island",
     "nextReviewDate": 0
   },
   {
     "id": 1030,
-    "german": "der Schluss, -̈e",
+    "german": "der Schluss",
     "english": "end, conclusion",
     "nextReviewDate": 0
   },
@@ -6186,7 +6186,7 @@
   },
   {
     "id": 1032,
-    "german": "das Volk, -̈er",
+    "german": "das Volk",
     "english": "people",
     "nextReviewDate": 0
   },
@@ -6198,25 +6198,25 @@
   },
   {
     "id": 1034,
-    "german": "definieren, definiert, definierte, hat definiert",
+    "german": "definieren",
     "english": "to define",
     "nextReviewDate": 0
   },
   {
     "id": 1035,
-    "german": "der September, -",
+    "german": "der September",
     "english": "September",
     "nextReviewDate": 0
   },
   {
     "id": 1036,
-    "german": "der Beruf, -e",
+    "german": "der Beruf",
     "english": "occupation, job, profession",
     "nextReviewDate": 0
   },
   {
     "id": 1037,
-    "german": "der Ansatz, -̈e",
+    "german": "der Ansatz",
     "english": "approach, attempt",
     "nextReviewDate": 0
   },
@@ -6228,19 +6228,19 @@
   },
   {
     "id": 1039,
-    "german": "herrschen, herrscht, herrschte, hat geherrscht",
+    "german": "herrschen",
     "english": "to rule",
     "nextReviewDate": 0
   },
   {
     "id": 1040,
-    "german": "der Sieg, -e",
+    "german": "der Sieg",
     "english": "victory",
     "nextReviewDate": 0
   },
   {
     "id": 1041,
-    "german": "die Küche, -n",
+    "german": "die Küche",
     "english": "kitchen, cuisine",
     "nextReviewDate": 0
   },
@@ -6258,19 +6258,19 @@
   },
   {
     "id": 1044,
-    "german": "der Montag, -e",
+    "german": "der Montag",
     "english": "Monday",
     "nextReviewDate": 0
   },
   {
     "id": 1045,
-    "german": "der Spaß, -̈e",
+    "german": "der Spaß",
     "english": "fun",
     "nextReviewDate": 0
   },
   {
     "id": 1046,
-    "german": "herstellen, stellt her, stellte her, hat hergestellt",
+    "german": "herstellen",
     "english": "to produce",
     "nextReviewDate": 0
   },
@@ -6282,13 +6282,13 @@
   },
   {
     "id": 1048,
-    "german": "der Mai, -e",
+    "german": "der Mai",
     "english": "May",
     "nextReviewDate": 0
   },
   {
     "id": 1049,
-    "german": "umfassen, umfasst, umfasste, hat umfasst",
+    "german": "umfassen",
     "english": "to include, consist of, surround",
     "nextReviewDate": 0
   },
@@ -6300,13 +6300,13 @@
   },
   {
     "id": 1051,
-    "german": "der Roman, -e",
+    "german": "der Roman",
     "english": "novel",
     "nextReviewDate": 0
   },
   {
     "id": 1052,
-    "german": "der Januar, -e",
+    "german": "der Januar",
     "english": "January",
     "nextReviewDate": 0
   },
@@ -6318,7 +6318,7 @@
   },
   {
     "id": 1054,
-    "german": "kämpfen, kämpft, kämpfte, hat gekämpft",
+    "german": "kämpfen",
     "english": "to fight",
     "nextReviewDate": 0
   },
@@ -6330,13 +6330,13 @@
   },
   {
     "id": 1056,
-    "german": "versprechen, verspricht, versprach, hat versprochen",
+    "german": "versprechen",
     "english": "to promise",
     "nextReviewDate": 0
   },
   {
     "id": 1057,
-    "german": "die english, -en",
+    "german": "die english",
     "english": "english",
     "nextReviewDate": 0
   },
@@ -6348,55 +6348,55 @@
   },
   {
     "id": 1059,
-    "german": "heben, hebt, hob, hat gehoben",
+    "german": "heben",
     "english": "to lift, raise",
     "nextReviewDate": 0
   },
   {
     "id": 1060,
-    "german": "der Rücken, -",
+    "german": "der Rücken",
     "english": "back",
     "nextReviewDate": 0
   },
   {
     "id": 1061,
-    "german": "existieren, existiert, existierte, hat existiert",
+    "german": "existieren",
     "english": "to exist",
     "nextReviewDate": 0
   },
   {
     "id": 1062,
-    "german": "die Masse, -n",
+    "german": "die Masse",
     "english": "mass, crowd",
     "nextReviewDate": 0
   },
   {
     "id": 1063,
-    "german": "singen, singt, sang, hat gesungen",
+    "german": "singen",
     "english": "to sing",
     "nextReviewDate": 0
   },
   {
     "id": 1064,
-    "german": "die Theorie, -n",
+    "german": "die Theorie",
     "english": "theory",
     "nextReviewDate": 0
   },
   {
     "id": 1065,
-    "german": "der Inhalt, -e",
+    "german": "der Inhalt",
     "english": "content, plot",
     "nextReviewDate": 0
   },
   {
     "id": 1066,
-    "german": "scheitern, scheitert, scheiterte, ist gescheitert",
+    "german": "scheitern",
     "english": "to fail, break down",
     "nextReviewDate": 0
   },
   {
     "id": 1067,
-    "german": "das Ereignis, -se",
+    "german": "das Ereignis",
     "english": "event",
     "nextReviewDate": 0
   },
@@ -6420,19 +6420,19 @@
   },
   {
     "id": 1071,
-    "german": "der Rest, -e",
+    "german": "der Rest",
     "english": "rest, remainder, balance",
     "nextReviewDate": 0
   },
   {
     "id": 1072,
-    "german": "der Wunsch, -̈e",
+    "german": "der Wunsch",
     "english": "wish",
     "nextReviewDate": 0
   },
   {
     "id": 1073,
-    "german": "beschließen, beschließt, beschloss, hat beschlossen",
+    "german": "beschließen",
     "english": "to decide",
     "nextReviewDate": 0
   },
@@ -6462,13 +6462,13 @@
   },
   {
     "id": 1078,
-    "german": "das Museum, -en",
+    "german": "das Museum",
     "english": "museum",
     "nextReviewDate": 0
   },
   {
     "id": 1079,
-    "german": "die Farbe, -n",
+    "german": "die Farbe",
     "english": "color",
     "nextReviewDate": 0
   },
@@ -6498,37 +6498,37 @@
   },
   {
     "id": 1084,
-    "german": "wechseln, wechselt, wechselte, hat gewechselt",
+    "german": "wechseln",
     "english": "to change",
     "nextReviewDate": 0
   },
   {
     "id": 1085,
-    "german": "einstellen, stellt ein, stellte ein, hat eingestellt",
+    "german": "einstellen",
     "english": "to adjust, employ, stop, discontinue",
     "nextReviewDate": 0
   },
   {
     "id": 1086,
-    "german": "das Theater, -",
+    "german": "das Theater",
     "english": "theater",
     "nextReviewDate": 0
   },
   {
     "id": 1087,
-    "german": "der König, -e",
+    "german": "der König",
     "english": "king",
     "nextReviewDate": 0
   },
   {
     "id": 1088,
-    "german": "das Ohr, -en",
+    "german": "das Ohr",
     "english": "ear",
     "nextReviewDate": 0
   },
   {
     "id": 1089,
-    "german": "fördern, fördert, förderte, hat gefördert",
+    "german": "fördern",
     "english": "to promote, support",
     "nextReviewDate": 0
   },
@@ -6540,55 +6540,55 @@
   },
   {
     "id": 1091,
-    "german": "der Aufbau, -ten",
+    "german": "der Aufbau",
     "english": "construction, structure",
     "nextReviewDate": 0
   },
   {
     "id": 1092,
-    "german": "der Beitrag, -̈e",
+    "german": "der Beitrag",
     "english": "contribution",
     "nextReviewDate": 0
   },
   {
     "id": 1093,
-    "german": "der Februar, -e",
+    "german": "der Februar",
     "english": "February",
     "nextReviewDate": 0
   },
   {
     "id": 1094,
-    "german": "durchführen, führt durch, führte durch, hat durchgeführt",
+    "german": "durchführen",
     "english": "to carry out, hold, conduct, run",
     "nextReviewDate": 0
   },
   {
     "id": 1095,
-    "german": "einfallen, fällt ein, fiel ein, ist eingefallen",
+    "german": "einfallen",
     "english": "to occur, remind, remember, collapse",
     "nextReviewDate": 0
   },
   {
     "id": 1096,
-    "german": "verletzen, verletzt, verletzte, hat verletzt",
+    "german": "verletzen",
     "english": "to injure",
     "nextReviewDate": 0
   },
   {
     "id": 1097,
-    "german": "die Kontrolle, -n",
+    "german": "die Kontrolle",
     "english": "inspection, control",
     "nextReviewDate": 0
   },
   {
     "id": 1098,
-    "german": "die Macht, -̈e",
+    "german": "die Macht",
     "english": "power, strength",
     "nextReviewDate": 0
   },
   {
     "id": 1099,
-    "german": "die Mannschaft, -en",
+    "german": "die Mannschaft",
     "english": "crew, team",
     "nextReviewDate": 0
   },
@@ -6600,25 +6600,25 @@
   },
   {
     "id": 1101,
-    "german": "behaupten, behauptet, behauptete, hat behauptet",
+    "german": "behaupten",
     "english": "to claim",
     "nextReviewDate": 0
   },
   {
     "id": 1102,
-    "german": "die Hoffnung, -en",
+    "german": "die Hoffnung",
     "english": "hope",
     "nextReviewDate": 0
   },
   {
     "id": 1103,
-    "german": "die Verantwortung, -en",
+    "german": "die Verantwortung",
     "english": "responsibility",
     "nextReviewDate": 0
   },
   {
     "id": 1104,
-    "german": "schreien, schreit, schrie, hat geschrien",
+    "german": "schreien",
     "english": "to cry out, scream",
     "nextReviewDate": 0
   },
@@ -6630,7 +6630,7 @@
   },
   {
     "id": 1106,
-    "german": "der Besuch, -e",
+    "german": "der Besuch",
     "english": "visit",
     "nextReviewDate": 0
   },
@@ -6642,7 +6642,7 @@
   },
   {
     "id": 1108,
-    "german": "die Quelle, -n",
+    "german": "die Quelle",
     "english": "source, spring",
     "nextReviewDate": 0
   },
@@ -6654,49 +6654,49 @@
   },
   {
     "id": 1110,
-    "german": "das Gebiet, -e",
+    "german": "das Gebiet",
     "english": "region, area, territory",
     "nextReviewDate": 0
   },
   {
     "id": 1111,
-    "german": "die Behörde, -n",
+    "german": "die Behörde",
     "english": "department, authorities",
     "nextReviewDate": 0
   },
   {
     "id": 1112,
-    "german": "der Samstag, -e",
+    "german": "der Samstag",
     "english": "Saturday",
     "nextReviewDate": 0
   },
   {
     "id": 1113,
-    "german": "die Organisation, -en",
+    "german": "die Organisation",
     "english": "organization",
     "nextReviewDate": 0
   },
   {
     "id": 1114,
-    "german": "die Summe, -n",
+    "german": "die Summe",
     "english": "sum",
     "nextReviewDate": 0
   },
   {
     "id": 1115,
-    "german": "der Job, -s",
+    "german": "der Job",
     "english": "job",
     "nextReviewDate": 0
   },
   {
     "id": 1116,
-    "german": "ausreichen, reicht aus, reichte aus, hat ausgereicht",
+    "german": "ausreichen",
     "english": "to be sufficient",
     "nextReviewDate": 0
   },
   {
     "id": 1117,
-    "german": "der Grad, -e",
+    "german": "der Grad",
     "english": "degree",
     "nextReviewDate": 0
   },
@@ -6708,13 +6708,13 @@
   },
   {
     "id": 1119,
-    "german": "benutzen, benutzt, benutzte, hat benutzt",
+    "german": "benutzen",
     "english": "to use",
     "nextReviewDate": 0
   },
   {
     "id": 1120,
-    "german": "irgendetwas, irgendwas",
+    "german": "irgendetwas",
     "english": "something, anything",
     "nextReviewDate": 0
   },
@@ -6726,19 +6726,19 @@
   },
   {
     "id": 1122,
-    "german": "vertrauen, vertraut, vertraute, hat vertraut",
+    "german": "vertrauen",
     "english": "to trust",
     "nextReviewDate": 0
   },
   {
     "id": 1123,
-    "german": "das Jahrzehnt, -e",
+    "german": "das Jahrzehnt",
     "english": "decade",
     "nextReviewDate": 0
   },
   {
     "id": 1124,
-    "german": "der Wind, -e",
+    "german": "der Wind",
     "english": "wind",
     "nextReviewDate": 0
   },
@@ -6750,7 +6750,7 @@
   },
   {
     "id": 1126,
-    "german": "der Bund, -̈e",
+    "german": "der Bund",
     "english": "association, alliance, bunch",
     "nextReviewDate": 0
   },
@@ -6762,7 +6762,7 @@
   },
   {
     "id": 1128,
-    "german": "das Merkmal, -e",
+    "german": "das Merkmal",
     "english": "feature",
     "nextReviewDate": 0
   },
@@ -6774,49 +6774,49 @@
   },
   {
     "id": 1130,
-    "german": "ermitteln, ermittelt, ermittelte, hat ermittelt",
+    "german": "ermitteln",
     "english": "to find out, investigate",
     "nextReviewDate": 0
   },
   {
     "id": 1131,
-    "german": "der Papa, -s",
+    "german": "der Papa",
     "english": "daddy",
     "nextReviewDate": 0
   },
   {
     "id": 1132,
-    "german": "die Kidheit, -en",
+    "german": "die Kidheit",
     "english": "illness, disease",
     "nextReviewDate": 0
   },
   {
     "id": 1133,
-    "german": "die Voraussetzung, -en",
+    "german": "die Voraussetzung",
     "english": "condition, requirement",
     "nextReviewDate": 0
   },
   {
     "id": 1134,
-    "german": "töten, tötet, tötete, hat getötet",
+    "german": "töten",
     "english": "to kill",
     "nextReviewDate": 0
   },
   {
     "id": 1135,
-    "german": "formulieren, formuliert, formulierte, hat formuliert",
+    "german": "formulieren",
     "english": "to formulate",
     "nextReviewDate": 0
   },
   {
     "id": 1136,
-    "german": "die Substanz, -en",
+    "german": "die Substanz",
     "english": "substance",
     "nextReviewDate": 0
   },
   {
     "id": 1137,
-    "german": "der Zeitpunkt, -e",
+    "german": "der Zeitpunkt",
     "english": "moment, (point in) time",
     "nextReviewDate": 0
   },
@@ -6828,19 +6828,19 @@
   },
   {
     "id": 1139,
-    "german": "der Gang, -̈e",
+    "german": "der Gang",
     "english": "corridor, aisle, course",
     "nextReviewDate": 0
   },
   {
     "id": 1140,
-    "german": "der Politiker, -",
+    "german": "der Politiker",
     "english": "politician",
     "nextReviewDate": 0
   },
   {
     "id": 1141,
-    "german": "die Unterstützung, -en",
+    "german": "die Unterstützung",
     "english": "support",
     "nextReviewDate": 0
   },
@@ -6852,49 +6852,49 @@
   },
   {
     "id": 1143,
-    "german": "brechen, bricht, brach, hat gebrochen",
+    "german": "brechen",
     "english": "to break",
     "nextReviewDate": 0
   },
   {
     "id": 1144,
-    "german": "fassen, fasst, fasste, hat gefasst",
+    "german": "fassen",
     "english": "to grab, grasp, hold",
     "nextReviewDate": 0
   },
   {
     "id": 1145,
-    "german": "das Zentrum, -en",
+    "german": "das Zentrum",
     "english": "center",
     "nextReviewDate": 0
   },
   {
     "id": 1146,
-    "german": "anrufen, ruft an, rief an, hat angerufen",
+    "german": "anrufen",
     "english": "to call",
     "nextReviewDate": 0
   },
   {
     "id": 1147,
-    "german": "entfernen, entfernt, entfernte, hat entfernt",
+    "german": "entfernen",
     "english": "to remove, leave",
     "nextReviewDate": 0
   },
   {
     "id": 1148,
-    "german": "der Juni, -s",
+    "german": "der Juni",
     "english": "June",
     "nextReviewDate": 0
   },
   {
     "id": 1149,
-    "german": "die Haut, -̈e",
+    "german": "die Haut",
     "english": "skin",
     "nextReviewDate": 0
   },
   {
     "id": 1150,
-    "german": "verfolgen, verfolgt, verfolgte, hat verfolgt",
+    "german": "verfolgen",
     "english": "to pursue, chase",
     "nextReviewDate": 0
   },
@@ -6906,13 +6906,13 @@
   },
   {
     "id": 1152,
-    "german": "der Schutz, -e",
+    "german": "der Schutz",
     "english": "protection",
     "nextReviewDate": 0
   },
   {
     "id": 1153,
-    "german": "die Generation, -en",
+    "german": "die Generation",
     "english": "generation",
     "nextReviewDate": 0
   },
@@ -6924,25 +6924,25 @@
   },
   {
     "id": 1155,
-    "german": "das Zeichen, -",
+    "german": "das Zeichen",
     "english": "sign",
     "nextReviewDate": 0
   },
   {
     "id": 1156,
-    "german": "die Wahrheit, -en",
+    "german": "die Wahrheit",
     "english": "truth",
     "nextReviewDate": 0
   },
   {
     "id": 1157,
-    "german": "der Haushalt, -e",
+    "german": "der Haushalt",
     "english": "household, budget",
     "nextReviewDate": 0
   },
   {
     "id": 1158,
-    "german": "der Garten, -̈",
+    "german": "der Garten",
     "english": "garden",
     "nextReviewDate": 0
   },
@@ -6954,25 +6954,25 @@
   },
   {
     "id": 1160,
-    "german": "auffallen, fällt auf, fiel auf, ist aufgefallen",
+    "german": "auffallen",
     "english": "to stand out, notice",
     "nextReviewDate": 0
   },
   {
     "id": 1161,
-    "german": "der Gegensatz, -̈e",
+    "german": "der Gegensatz",
     "english": "opposite, contrast",
     "nextReviewDate": 0
   },
   {
     "id": 1162,
-    "german": "verteilen, verteilt, verteilte, hat verteilt",
+    "german": "verteilen",
     "english": "to distribute",
     "nextReviewDate": 0
   },
   {
     "id": 1163,
-    "german": "das Papier, -e",
+    "german": "das Papier",
     "english": "paper",
     "nextReviewDate": 0
   },
@@ -7026,31 +7026,31 @@
   },
   {
     "id": 1172,
-    "german": "der Partner, -",
+    "german": "der Partner",
     "english": "partner",
     "nextReviewDate": 0
   },
   {
     "id": 1173,
-    "german": "nachdenken, denkt nach, dachte nach, hat nachgedacht",
+    "german": "nachdenken",
     "english": "to think about, reflect",
     "nextReviewDate": 0
   },
   {
     "id": 1174,
-    "german": "die Ausbildung, -en",
+    "german": "die Ausbildung",
     "english": "training, development",
     "nextReviewDate": 0
   },
   {
     "id": 1175,
-    "german": "der Wagen, -",
+    "german": "der Wagen",
     "english": "car, carriage",
     "nextReviewDate": 0
   },
   {
     "id": 1176,
-    "german": "das Schiff, -e",
+    "german": "das Schiff",
     "english": "ship",
     "nextReviewDate": 0
   },
@@ -7062,73 +7062,73 @@
   },
   {
     "id": 1178,
-    "german": "die Tat, -en",
+    "german": "die Tat",
     "english": "deed, action",
     "nextReviewDate": 0
   },
   {
     "id": 1179,
-    "german": "obere (r, s)",
+    "german": "obere",
     "english": "upper",
     "nextReviewDate": 0
   },
   {
     "id": 1180,
-    "german": "die Gleichung, -en",
+    "german": "die Gleichung",
     "english": "equation",
     "nextReviewDate": 0
   },
   {
     "id": 1181,
-    "german": "der Stein, -e",
+    "german": "der Stein",
     "english": "rock, stone",
     "nextReviewDate": 0
   },
   {
     "id": 1182,
-    "german": "kümmern (sich), kümmert, kümmerte, hat gekümmert",
+    "german": "kümmern",
     "english": "to take care of, be concerned",
     "nextReviewDate": 0
   },
   {
     "id": 1183,
-    "german": "mittlere (r, s)",
+    "german": "mittlere",
     "english": "middle, average",
     "nextReviewDate": 0
   },
   {
     "id": 1184,
-    "german": "erheben, erhebt, erhob, hat erhoben",
+    "german": "erheben",
     "english": "to raise",
     "nextReviewDate": 0
   },
   {
     "id": 1185,
-    "german": "die Erklärung, -en",
+    "german": "die Erklärung",
     "english": "explanation",
     "nextReviewDate": 0
   },
   {
     "id": 1186,
-    "german": "das Konzept, -e",
+    "german": "das Konzept",
     "english": "concept, idea, plan",
     "nextReviewDate": 0
   },
   {
     "id": 1187,
-    "german": "der Mittwoch, -e",
+    "german": "der Mittwoch",
     "english": "Wednesday",
     "nextReviewDate": 0
   },
   {
     "id": 1188,
-    "german": "stören, stört, störte, hat gestört",
+    "german": "stören",
     "english": "to disturb, bother",
     "nextReviewDate": 0
   },
   {
     "id": 1189,
-    "german": "die Spur, -en",
+    "german": "die Spur",
     "english": "track, lane",
     "nextReviewDate": 0
   },
@@ -7140,13 +7140,13 @@
   },
   {
     "id": 1191,
-    "german": "die Herausforderung, -en",
+    "german": "die Herausforderung",
     "english": "challenge",
     "nextReviewDate": 0
   },
   {
     "id": 1192,
-    "german": "starten, startet, startete, hat gestartet",
+    "german": "starten",
     "english": "to start",
     "nextReviewDate": 0
   },
@@ -7158,7 +7158,7 @@
   },
   {
     "id": 1194,
-    "german": "verbessern, verbessert, verbesserte, hat verbessert",
+    "german": "verbessern",
     "english": "to improve, correct",
     "nextReviewDate": 0
   },
@@ -7170,13 +7170,13 @@
   },
   {
     "id": 1196,
-    "german": "die Vergangenheit, -en",
+    "german": "die Vergangenheit",
     "english": "past",
     "nextReviewDate": 0
   },
   {
     "id": 1197,
-    "german": "das Gleichgewicht, -e",
+    "german": "das Gleichgewicht",
     "english": "balance",
     "nextReviewDate": 0
   },
@@ -7188,31 +7188,31 @@
   },
   {
     "id": 1199,
-    "german": "das Maß, -e",
+    "german": "das Maß",
     "english": "measure",
     "nextReviewDate": 0
   },
   {
     "id": 1200,
-    "german": "abgeben, gibt ab, gab ab, hat abgegeben",
+    "german": "abgeben",
     "english": "to give, hand in, submit",
     "nextReviewDate": 0
   },
   {
     "id": 1201,
-    "german": "der Bericht, -e",
+    "german": "der Bericht",
     "english": "report",
     "nextReviewDate": 0
   },
   {
     "id": 1202,
-    "german": "die Qualität, -en",
+    "german": "die Qualität",
     "english": "quality",
     "nextReviewDate": 0
   },
   {
     "id": 1203,
-    "german": "der Rand, -̈er",
+    "german": "der Rand",
     "english": "edge",
     "nextReviewDate": 0
   },
@@ -7224,25 +7224,25 @@
   },
   {
     "id": 1205,
-    "german": "der Kern, -e",
+    "german": "der Kern",
     "english": "seed, core, nucleus",
     "nextReviewDate": 0
   },
   {
     "id": 1206,
-    "german": "der Winter, -",
+    "german": "der Winter",
     "english": "winter",
     "nextReviewDate": 0
   },
   {
     "id": 1207,
-    "german": "der Hintergrund, -̈e",
+    "german": "der Hintergrund",
     "english": "background",
     "nextReviewDate": 0
   },
   {
     "id": 1208,
-    "german": "Osten, Ost-",
+    "german": "Osten",
     "english": "east",
     "nextReviewDate": 0
   },
@@ -7266,19 +7266,19 @@
   },
   {
     "id": 1212,
-    "german": "zwingen, zwingt, zwang, hat gezwungen",
+    "german": "zwingen",
     "english": "to force",
     "nextReviewDate": 0
   },
   {
     "id": 1213,
-    "german": "das Bier, -e",
+    "german": "das Bier",
     "english": "beer",
     "nextReviewDate": 0
   },
   {
     "id": 1214,
-    "german": "ansprechen, spricht an, sprach an, hat angesprochen",
+    "german": "ansprechen",
     "english": "to address, speak",
     "nextReviewDate": 0
   },
@@ -7290,37 +7290,37 @@
   },
   {
     "id": 1216,
-    "german": "die Forderung, -en",
+    "german": "die Forderung",
     "english": "demand, claim",
     "nextReviewDate": 0
   },
   {
     "id": 1217,
-    "german": "gelangen, gelangt, gelangte, ist gelangt",
+    "german": "gelangen",
     "english": "to reach",
     "nextReviewDate": 0
   },
   {
     "id": 1218,
-    "german": "die Nachricht, -en",
+    "german": "die Nachricht",
     "english": "news, message",
     "nextReviewDate": 0
   },
   {
     "id": 1219,
-    "german": "sammeln, sammelt, sammelte, hat gesammelt",
+    "german": "sammeln",
     "english": "to collect, gather",
     "nextReviewDate": 0
   },
   {
     "id": 1220,
-    "german": "ablehnen, lehnt ab, lehnte ab, hat abgelehnt",
+    "german": "ablehnen",
     "english": "to refuse, reject, turn down",
     "nextReviewDate": 0
   },
   {
     "id": 1221,
-    "german": "stoßen, stößt, stieß, hat gestoßen",
+    "german": "stoßen",
     "english": "to bump, push",
     "nextReviewDate": 0
   },
@@ -7332,25 +7332,25 @@
   },
   {
     "id": 1223,
-    "german": "der Oktober, -",
+    "german": "der Oktober",
     "english": "October",
     "nextReviewDate": 0
   },
   {
     "id": 1224,
-    "german": "umgehen, umgeht, umging, hat umgangen",
+    "german": "umgehen",
     "english": "to treat, handle",
     "nextReviewDate": 0
   },
   {
     "id": 1225,
-    "german": "angehen, geht an, ging an, ist angegangen",
+    "german": "angehen",
     "english": "to concern, go on",
     "nextReviewDate": 0
   },
   {
     "id": 1226,
-    "german": "verlaufen, verläuft, verlief, ist verlaufen",
+    "german": "verlaufen",
     "english": "to proceed, get lost",
     "nextReviewDate": 0
   },
@@ -7362,7 +7362,7 @@
   },
   {
     "id": 1228,
-    "german": "auftauchen, taucht auf, tauchte auf, ist aufgetaucht",
+    "german": "auftauchen",
     "english": "to surface, appear",
     "nextReviewDate": 0
   },
@@ -7374,25 +7374,25 @@
   },
   {
     "id": 1230,
-    "german": "auslösen, löst aus, löste aus, hat ausgelöst",
+    "german": "auslösen",
     "english": "to set off, provoke",
     "nextReviewDate": 0
   },
   {
     "id": 1231,
-    "german": "weitergehen, geht weiter, ging weiter, ist weitergegangen",
+    "german": "weitergehen",
     "english": "to go on, continue",
     "nextReviewDate": 0
   },
   {
     "id": 1232,
-    "german": "abhängen, hängt ab, hing ab, hat abgehangen",
+    "german": "abhängen",
     "english": "to depend",
     "nextReviewDate": 0
   },
   {
     "id": 1233,
-    "german": "die Geschwindigkeit, -en",
+    "german": "die Geschwindigkeit",
     "english": "speed",
     "nextReviewDate": 0
   },
@@ -7404,19 +7404,19 @@
   },
   {
     "id": 1235,
-    "german": "der Augenblick, -e",
+    "german": "der Augenblick",
     "english": "moment",
     "nextReviewDate": 0
   },
   {
     "id": 1236,
-    "german": "reduzieren, reduziert, reduzierte, hat reduziert",
+    "german": "reduzieren",
     "english": "to reduce, decrease",
     "nextReviewDate": 0
   },
   {
     "id": 1237,
-    "german": "die Maschine, -n",
+    "german": "die Maschine",
     "english": "machine",
     "nextReviewDate": 0
   },
@@ -7428,13 +7428,13 @@
   },
   {
     "id": 1239,
-    "german": "ausmachen, macht aus, machte aus, hat ausgemacht",
+    "german": "ausmachen",
     "english": "to put out, agree",
     "nextReviewDate": 0
   },
   {
     "id": 1240,
-    "german": "eintreten, tritt ein, trat ein, hat eingetreten",
+    "german": "eintreten",
     "english": "to enter, join, occur",
     "nextReviewDate": 0
   },
@@ -7452,31 +7452,31 @@
   },
   {
     "id": 1243,
-    "german": "das Wochenende, -n",
+    "german": "das Wochenende",
     "english": "weekend",
     "nextReviewDate": 0
   },
   {
     "id": 1244,
-    "german": "der Donnerstag, -e",
+    "german": "der Donnerstag",
     "english": "Thursday",
     "nextReviewDate": 0
   },
   {
     "id": 1245,
-    "german": "die Saison, -s",
+    "german": "die Saison",
     "english": "season",
     "nextReviewDate": 0
   },
   {
     "id": 1246,
-    "german": "der Forscher, -",
+    "german": "der Forscher",
     "english": "researcher",
     "nextReviewDate": 0
   },
   {
     "id": 1247,
-    "german": "gründen, gründet, gründete, hat gegründet",
+    "german": "gründen",
     "english": "to establish, found",
     "nextReviewDate": 0
   },
@@ -7488,67 +7488,67 @@
   },
   {
     "id": 1249,
-    "german": "das Teilchen, -",
+    "german": "das Teilchen",
     "english": "particle",
     "nextReviewDate": 0
   },
   {
     "id": 1250,
-    "german": "genügen, genügt, genügte, hat genügt",
+    "german": "genügen",
     "english": "to be sufficient",
     "nextReviewDate": 0
   },
   {
     "id": 1251,
-    "german": "schieben, schiebt, schob, hat geschoben",
+    "german": "schieben",
     "english": "to push",
     "nextReviewDate": 0
   },
   {
     "id": 1252,
-    "german": "der Computer, -",
+    "german": "der Computer",
     "english": "computer",
     "nextReviewDate": 0
   },
   {
     "id": 1253,
-    "german": "der Effekt, -e",
+    "german": "der Effekt",
     "english": "effect",
     "nextReviewDate": 0
   },
   {
     "id": 1254,
-    "german": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
+    "german": "abnehmen",
     "english": "to lose weight, decrease, reduce",
     "nextReviewDate": 0
   },
   {
     "id": 1255,
-    "german": "die Verteilung, -en",
+    "german": "die Verteilung",
     "english": "distribution",
     "nextReviewDate": 0
   },
   {
     "id": 1256,
-    "german": "blicken, blickt, blickte, hat geblickt",
+    "german": "blicken",
     "english": "to look",
     "nextReviewDate": 0
   },
   {
     "id": 1257,
-    "german": "beitragen, trägt bei, trug bei, hat beigetragen",
+    "german": "beitragen",
     "english": "to contribute",
     "nextReviewDate": 0
   },
   {
     "id": 1258,
-    "german": "die Anwendung, -en",
+    "german": "die Anwendung",
     "english": "application, use",
     "nextReviewDate": 0
   },
   {
     "id": 1259,
-    "german": "zeichnen, zeichnet, zeichnete, hat gezeichnet",
+    "german": "zeichnen",
     "english": "to draw",
     "nextReviewDate": 0
   },
@@ -7566,25 +7566,25 @@
   },
   {
     "id": 1262,
-    "german": "erwähnen, erwähnt, erwähnte, hat erwähnt",
+    "german": "erwähnen",
     "english": "to mention",
     "nextReviewDate": 0
   },
   {
     "id": 1263,
-    "german": "die Welle, -n",
+    "german": "die Welle",
     "english": "wave",
     "nextReviewDate": 0
   },
   {
     "id": 1264,
-    "german": "die Nase, -n",
+    "german": "die Nase",
     "english": "nose",
     "nextReviewDate": 0
   },
   {
     "id": 1265,
-    "german": "vertreten, vertritt, vertrat, hat vertreten",
+    "german": "vertreten",
     "english": "to represent, advocate, substitute",
     "nextReviewDate": 0
   },
@@ -7596,7 +7596,7 @@
   },
   {
     "id": 1267,
-    "german": "der Soldat, -en",
+    "german": "der Soldat",
     "english": "soldier",
     "nextReviewDate": 0
   },
@@ -7608,19 +7608,19 @@
   },
   {
     "id": 1269,
-    "german": "die Technik, -en",
+    "german": "die Technik",
     "english": "technology, technique",
     "nextReviewDate": 0
   },
   {
     "id": 1270,
-    "german": "das Blatt, -̈er",
+    "german": "das Blatt",
     "english": "sheet, leaf",
     "nextReviewDate": 0
   },
   {
     "id": 1271,
-    "german": "prägen, prägt, prägte, hat geprägt",
+    "german": "prägen",
     "english": "to shape, mint",
     "nextReviewDate": 0
   },
@@ -7632,7 +7632,7 @@
   },
   {
     "id": 1273,
-    "german": "der November, -",
+    "german": "der November",
     "english": "November",
     "nextReviewDate": 0
   },
@@ -7650,31 +7650,31 @@
   },
   {
     "id": 1276,
-    "german": "danken, dankt, dankte, hat gedankt",
+    "german": "danken",
     "english": "to thank",
     "nextReviewDate": 0
   },
   {
     "id": 1277,
-    "german": "der Fußball, -̈e",
+    "german": "der Fußball",
     "english": "soccer, soccer ball",
     "nextReviewDate": 0
   },
   {
     "id": 1278,
-    "german": "der Umstand, -̈e",
+    "german": "der Umstand",
     "english": "circumstance",
     "nextReviewDate": 0
   },
   {
     "id": 1279,
-    "german": "einladen, lädt ein, lud ein, hat eingeladen",
+    "german": "einladen",
     "english": "to invite, load",
     "nextReviewDate": 0
   },
   {
     "id": 1280,
-    "german": "Kilogramm, kg",
+    "german": "Kilogramm",
     "english": "kilogram",
     "nextReviewDate": 0
   },
@@ -7686,13 +7686,13 @@
   },
   {
     "id": 1282,
-    "german": "die Integration, -en",
+    "german": "die Integration",
     "english": "integration",
     "nextReviewDate": 0
   },
   {
     "id": 1283,
-    "german": "der Nachbar, -n",
+    "german": "der Nachbar",
     "english": "neighbor",
     "nextReviewDate": 0
   },
@@ -7704,13 +7704,13 @@
   },
   {
     "id": 1285,
-    "german": "die Figur, -en",
+    "german": "die Figur",
     "english": "figure",
     "nextReviewDate": 0
   },
   {
     "id": 1286,
-    "german": "die Freude, -n",
+    "german": "die Freude",
     "english": "joy",
     "nextReviewDate": 0
   },
@@ -7728,13 +7728,13 @@
   },
   {
     "id": 1289,
-    "german": "der Kreis, -e",
+    "german": "der Kreis",
     "english": "circle, district",
     "nextReviewDate": 0
   },
   {
     "id": 1290,
-    "german": "nicken, nickt, nickte, hat genickt",
+    "german": "nicken",
     "english": "to nod",
     "nextReviewDate": 0
   },
@@ -7752,43 +7752,43 @@
   },
   {
     "id": 1293,
-    "german": "das Gericht, -e",
+    "german": "das Gericht",
     "english": "court, dish",
     "nextReviewDate": 0
   },
   {
     "id": 1294,
-    "german": "schätzen, schätzt, schätzte, hat geschätzt",
+    "german": "schätzen",
     "english": "to estimate, value",
     "nextReviewDate": 0
   },
   {
     "id": 1295,
-    "german": "organisieren, organisiert, organisierte, hat organisiert",
+    "german": "organisieren",
     "english": "to organize",
     "nextReviewDate": 0
   },
   {
     "id": 1296,
-    "german": "der Aspekt, -e",
+    "german": "der Aspekt",
     "english": "aspect",
     "nextReviewDate": 0
   },
   {
     "id": 1297,
-    "german": "verzichten, verzichtet, verzichtete, hat verzichtet",
+    "german": "verzichten",
     "english": "to do without",
     "nextReviewDate": 0
   },
   {
     "id": 1298,
-    "german": "bemerken, bemerkt, bemerkte, hat bemerkt",
+    "german": "bemerken",
     "english": "to notice",
     "nextReviewDate": 0
   },
   {
     "id": 1299,
-    "german": "der Kaffee, -s",
+    "german": "der Kaffee",
     "english": "coffee",
     "nextReviewDate": 0
   },
@@ -7806,43 +7806,43 @@
   },
   {
     "id": 1302,
-    "german": "leiten, leitet, leitete, hat geleitet",
+    "german": "leiten",
     "english": "to lead",
     "nextReviewDate": 0
   },
   {
     "id": 1303,
-    "german": "der Vertreter, -",
+    "german": "der Vertreter",
     "english": "representative",
     "nextReviewDate": 0
   },
   {
     "id": 1304,
-    "german": "die Statistik, -en",
+    "german": "die Statistik",
     "english": "statistics",
     "nextReviewDate": 0
   },
   {
     "id": 1305,
-    "german": "die Heimat, -en",
+    "german": "die Heimat",
     "english": "home, homeland",
     "nextReviewDate": 0
   },
   {
     "id": 1306,
-    "german": "Milliliter, ml",
+    "german": "Milliliter",
     "english": "milliliter",
     "nextReviewDate": 0
   },
   {
     "id": 1307,
-    "german": "zurückkehren, kehrt zurück, kehrte zurück, ist zurückgekehrt",
+    "german": "zurückkehren",
     "english": "to return",
     "nextReviewDate": 0
   },
   {
     "id": 1308,
-    "german": "der Gegenstand, -̈e",
+    "german": "der Gegenstand",
     "english": "object",
     "nextReviewDate": 0
   },
@@ -7854,13 +7854,13 @@
   },
   {
     "id": 1310,
-    "german": "umsetzen, setzt um, setzte um, hat umgesetzt",
+    "german": "umsetzen",
     "english": "to implement, move, put (into practice)",
     "nextReviewDate": 0
   },
   {
     "id": 1311,
-    "german": "betreiben, betreibt, betrieb, hat betrieben",
+    "german": "betreiben",
     "english": "to proceed with, operate, run",
     "nextReviewDate": 0
   },
@@ -7872,7 +7872,7 @@
   },
   {
     "id": 1313,
-    "german": "enden, endet, endete, hat geendet",
+    "german": "enden",
     "english": "to end",
     "nextReviewDate": 0
   },
@@ -7884,37 +7884,37 @@
   },
   {
     "id": 1315,
-    "german": "konzentrieren, konzentriert, konzentrierte, hat konzentriert",
+    "german": "konzentrieren",
     "english": "to concentrate",
     "nextReviewDate": 0
   },
   {
     "id": 1316,
-    "german": "landen, landet, landete, ist gelandet",
+    "german": "landen",
     "english": "to land",
     "nextReviewDate": 0
   },
   {
     "id": 1317,
-    "german": "der See, -n",
+    "german": "der See",
     "english": "lake",
     "nextReviewDate": 0
   },
   {
     "id": 1318,
-    "german": "der Tourist, -en",
+    "german": "der Tourist",
     "english": "tourist",
     "nextReviewDate": 0
   },
   {
     "id": 1319,
-    "german": "die Konzentration, -en",
+    "german": "die Konzentration",
     "english": "concentration",
     "nextReviewDate": 0
   },
   {
     "id": 1320,
-    "german": "verbieten, verbietet, verbot, hat verboten",
+    "german": "verbieten",
     "english": "to forbid, prohibit",
     "nextReviewDate": 0
   },
@@ -7926,7 +7926,7 @@
   },
   {
     "id": 1322,
-    "german": "die Fähigkeit, -en",
+    "german": "die Fähigkeit",
     "english": "ability, capability",
     "nextReviewDate": 0
   },

@@ -1,6 +1,6 @@
 import {inject, Injectable} from '@angular/core';
 import {Word} from '../models/word.model';
-import {BehaviorSubject} from 'rxjs';
+import {BehaviorSubject, timer} from 'rxjs';
 import {VocabularyDBService} from './vocabulary-db.service';
 
 @Injectable({
@@ -33,7 +33,17 @@ export class WordDataService {
       {min: 100, max: 100, label: '100%'},
     ]
 
-    const allWords = await this.vocabularyDbService.getTotalWordsCount();
+    let allWords = await this.vocabularyDbService.getTotalWordsCount();
+
+    const delay = (ms: number) => {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    if (allWords === 0) {
+      await delay(100);
+
+      allWords = await this.vocabularyDbService.getTotalWordsCount();
+    }
 
     for (const range of ranges) {
       const count = await this.vocabularyDbService.countWordsInRange(range.min, range.max);

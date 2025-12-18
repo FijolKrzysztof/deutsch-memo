@@ -1,6 +1,6 @@
 import {inject, Injectable} from '@angular/core';
 import {Word} from '../models/word.model';
-import {BehaviorSubject, timer} from 'rxjs';
+import {BehaviorSubject} from 'rxjs';
 import {VocabularyDBService} from './vocabulary-db.service';
 
 @Injectable({

@@ -1,47 +1,55 @@
-import {Component, DestroyRef, ElementRef, HostListener, inject, OnInit, signal, viewChild} from '@angular/core';
+import {Component, DestroyRef, ElementRef, HostListener, inject, signal, viewChild} from '@angular/core';
 import {Word} from '../models/word.model';
 import {SrsService} from '../services/srs.service';
 import {FormsModule} from '@angular/forms';
 import {VocabularyDBService} from '../services/vocabulary-db.service';
-import {Subject, throttleTime} from 'rxjs';
+import {filter, from, startWith, Subject, switchMap, throttleTime} from 'rxjs';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
+import {WordDataService} from '../services/word-data.service';
+import {AsyncPipe} from '@angular/common';
 
 @Component({
   selector: 'app-learning',
   templateUrl: './learning.component.html',
   imports: [
-    FormsModule
+    FormsModule,
+    AsyncPipe
   ],
   styleUrls: ['./learning.component.scss']
 })
-export class LearningComponent implements OnInit {
+export class LearningComponent {
   wordsForReview: Word[] = [];
-  currentWord: Word | null = null;
-  currentIndex: number = 0;
   userAnswer: string = '';
 
+  protected currentWord = signal<Word | null>(null);
+  protected wordsForReviewLength = signal(0);
   protected isCorrect = signal(false);
-  protected remainingCount = signal(0);
+  protected currentIndex = signal(0);
   protected showResult = signal(false);
+  protected blockEnter = signal(false);
+  protected statisticsSubject = new Subject();
+  protected statistics$ = this.statisticsSubject.pipe(
+    startWith(null),
+    switchMap(() => from(this.wordDataService.getStatisticsByProgressPercentage()))
+  )
 
+  private readonly wordDataService = inject(WordDataService);
   private readonly vocabularyDbService = inject(VocabularyDBService);
   private readonly srsService = inject(SrsService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly inputElement = viewChild('inputElement', {read: ElementRef});
 
-  ngOnInit(): void {
-    this.startSession().finally();
-  }
-
   private handleEnterKeySubject = new Subject();
   private _ = this.handleEnterKeySubject.pipe(
     takeUntilDestroyed(this.destroyRef),
+    filter(() => !this.blockEnter()),
     throttleTime(500),
   ).subscribe(() => {
-    if (this.currentWord) {
+    if (this.currentWord()) {
       if (this.showResult()) {
         this.nextWord();
       } else {
+        this.blockEnter.set(true);
         this.checkAnswer().finally();
       }
     }
@@ -50,15 +58,19 @@ export class LearningComponent implements OnInit {
   async startSession() {
     this.wordsForReview = await this.vocabularyDbService.getWordsForReview();
 
-    this.remainingCount.set(this.wordsForReview.length);
-    this.currentIndex = 0;
-    this.nextWord();
+    this.wordsForReviewLength.set(this.wordsForReview.length);
+    this.currentIndex.set(0);
+    this.currentWord.set(this.wordsForReview[this.currentIndex()]);
+    this.userAnswer = '';
+    setTimeout(() => {
+      this.inputElement()?.nativeElement.focus();
+    })
   }
 
   nextWord(): void {
+    this.currentIndex.update(count => count + 1);
     this.showResult.set(false);
-    this.currentIndex++;
-    this.currentWord = this.wordsForReview[this.currentIndex];
+    this.currentWord.set(this.wordsForReview[this.currentIndex()]);
     this.userAnswer = '';
     setTimeout(() => {
       this.inputElement()?.nativeElement.focus();
@@ -66,34 +78,40 @@ export class LearningComponent implements OnInit {
   }
 
   async checkAnswer() {
-    if (!this.currentWord) return;
+    const currentWord = this.currentWord();
+    if (!currentWord) return;
 
     this.showResult.set(true);
 
-    this.isCorrect.set(this.userAnswer.trim().toLowerCase() === this.currentWord.german.toLowerCase());
+    this.isCorrect.set(this.userAnswer.trim().toLowerCase() === currentWord.german.toLowerCase());
 
     const grade = this.isCorrect() ? 1 : 0;
-    const updatedWord = this.srsService.calculateNextReview(this.currentWord, grade);
+    const updatedWord = this.srsService.calculateNextReview(currentWord, grade);
 
     await this.vocabularyDbService.putWord(updatedWord);
-    this.remainingCount.update(count => count - 1);
 
     if (this.isCorrect()) {
       setTimeout(() => {
+        this.blockEnter.set(false);
         this.showResult.set(false);
 
         this.nextWord();
       }, 1000)
+    } else {
+      this.blockEnter.set(false);
     }
   }
 
   @HostListener('window:keyup.enter', ['$event'])
   handleEnterKey(event: Event): void {
-    this.handleEnterKeySubject.next(event);
+    if (this.userAnswer) {
+      this.handleEnterKeySubject.next(event);
+    }
   }
 
   getCorrectAnswer(): string {
-    return this.currentWord ? this.currentWord.german : '';
+    const currentWord = this.currentWord();
+    return currentWord ? currentWord.german : '';
   }
 
   onNext(): void {

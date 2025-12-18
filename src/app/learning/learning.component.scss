@@ -1,94 +1,212 @@
+$primary-green: #558B2F;
+$light-green: #E8F5E9;
+$accent-yellow: #FFC107;
+$bg-white: #ffffff;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+$text-dark: #333;
+
+@mixin border-radius-sm { border-radius: 4px; }
+@mixin border-radius-lg { border-radius: 8px; }
+
 .learning-container {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+}
+
+.text {
+  background-color: rgba($light-green, 0.8);
+  padding: 5px 20px;
+  color: black;
+  display: inline-block;
+  @include border-radius-sm;
+  font-weight: 500;
 }
 
 .stats {
+  display: flex;
+  justify-self: center;
   font-size: 1.1em;
   margin-bottom: 20px;
 }
 
 .card {
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: $bg-white;
+  @include border-radius-lg;
+  box-shadow: $shadow;
   padding: 30px 20px;
   margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,0.05);
 }
 
 .word-display {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 25px;
-  padding: 10px;
-  background-color: #E8F5E9;
-  border-radius: 4px;
+  padding: 20px;
+  background-color: $light-green;
+  @include border-radius-sm;
+  color: $primary-green;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
 }
 
 input[type="text"] {
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   margin-bottom: 15px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  border: 2px solid #ddd;
+  @include border-radius-sm;
   box-sizing: border-box;
   font-size: 1.1em;
+  transition: border-color 0.3s;
+
+  &:focus {
+    outline: none;
+    border-color: $primary-green;
+  }
+
+  &:disabled {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
 }
 
 button {
   width: 100%;
-  padding: 12px;
-  background-color: #558B2F;
+  padding: 14px;
+  background-color: $primary-green;
   color: white;
   border: none;
-  border-radius: 4px;
+  @include border-radius-sm;
   cursor: pointer;
   font-size: 1.1em;
-  transition: background-color 0.3s;
-}
+  font-weight: bold;
+  transition: all 0.3s ease;
 
-button:hover:not(:disabled) {
-  background-color: #FFC107;
-}
+  &:hover:not(:disabled) {
+    background-color: $accent-yellow;
+    color: #000;
+    transform: translateY(-1px);
+  }
 
-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
 }
 
 .result-box {
   margin-top: 20px;
-  padding: 15px;
-  border-radius: 4px;
-}
+  padding: 20px;
+  @include border-radius-sm;
+  animation: slideIn 0.3s ease-out;
 
-.correct {
-  background-color: #E8F5E9;
-  border: 1px solid #558B2F;
-  color: #558B2F;
-}
+  &.correct {
+    background-color: $light-green;
+    border: 1px solid $primary-green;
+    color: $primary-green;
+  }
 
-.incorrect {
-  background-color: #ffe6e6;
-  border: 1px solid #cc0000;
-  color: #cc0000;
+  &.incorrect {
+    background-color: #ffe6e6;
+    border: 1px solid #cc0000;
+    color: #cc0000;
+  }
 }
 
 .correct-text {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .next-button {
   margin-top: 15px;
-  background-color: #558B2F;
+  background-color: $primary-green;
 }
 
-@media (max-width: 768px) {
-  .learning-container {
-    padding: 10px;
+.stats-table-container {
+  padding: 0;
+  overflow: hidden;
+  margin-top: 10px;
+
+  .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+    thead {
+      background-color: $light-green;
+      color: $primary-green;
+      font-size: 0.85em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      th { padding: 15px 20px; }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid #f0f0f0;
+        &:last-child { border-bottom: none; }
+        &:hover { background-color: rgba($light-green, 0.2); }
+      }
+
+      td { padding: 15px 20px; vertical-align: middle; }
+    }
+
+    .label-cell { font-weight: 600; color: #444; }
+
+    .progress-cell {
+      width: 45%;
+
+      .progress-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        .mini-bar {
+          flex-grow: 1;
+          height: 8px;
+          background: #eee;
+          @include border-radius-lg;
+          overflow: hidden;
+
+          .fill {
+            height: 100%;
+            background-color: $primary-green;
+            transition: width 0.8s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+          }
+        }
+
+        .percentage {
+          font-size: 0.85em;
+          font-weight: bold;
+          color: #777;
+          min-width: 35px;
+        }
+      }
+    }
+
+    .count-cell {
+      text-align: right;
+      font-size: 0.9em;
+      color: #666;
+      strong { color: $primary-green; }
+    }
   }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }

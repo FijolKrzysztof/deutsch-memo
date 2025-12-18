@@ -6,9 +6,11 @@ import {Word} from '../models/word.model';
 })
 export class VocabularyDBService {
   private DB_NAME = 'VocabularyDB';
-  private DB_VERSION = 1;
+  private DB_VERSION = 2;
   private STORE_NAME = 'vocabulary';
   private db!: IDBDatabase;
+  private BY_NEXT_REVIEW_DATE = 'by_nextReviewDate';
+  private BY_PROGRESS_PERCENTAGE = 'by_progressPercentage';
 
   constructor() {
     this.openDB().finally();
@@ -36,16 +38,26 @@ export class VocabularyDBService {
         this.db = request.result;
         if (!this.db.objectStoreNames.contains(this.STORE_NAME)) {
           const store = this.db.createObjectStore(this.STORE_NAME, { keyPath: 'id' });
-
-          if (!store.indexNames.contains('by_nextReviewDate')) {
-            store.createIndex('by_nextReviewDate', 'nextReviewDate', { unique: false });
-            console.log("Created index 'by_nextReviewDate' during database initialization.");
-          }
-
+          this.createIndexes(store);
           this.initializeData().finally();
+        } else {
+          const store = (event.target as IDBOpenDBRequest).transaction!.objectStore(this.STORE_NAME);
+          this.createIndexes(store);
         }
       };
     });
+  }
+
+  private createIndexes(store: IDBObjectStore) {
+    if (!store.indexNames.contains(this.BY_PROGRESS_PERCENTAGE)) {
+      store.createIndex(this.BY_PROGRESS_PERCENTAGE, 'progressPercentage', { unique: false });
+      console.log(`Created index ${this.BY_PROGRESS_PERCENTAGE}.`);
+    }
+
+    if (!store.indexNames.contains(this.BY_NEXT_REVIEW_DATE)) {
+      store.createIndex(this.BY_NEXT_REVIEW_DATE, 'nextReviewDate', { unique: false });
+      console.log(`Created index ${this.BY_NEXT_REVIEW_DATE}`);
+    }
   }
 
   private async initializeData() {
@@ -112,6 +124,38 @@ export class VocabularyDBService {
     });
   }
 
+  async getTotalWordsCount(): Promise<number> {
+    await this.openDB();
+
+    return new Promise((resolve, reject) => {
+      const store = this.getObjectStore('readonly');
+      const request = store.count();
+
+      request.onsuccess = () => {
+        resolve(request.result);
+      };
+
+      request.onerror = () => reject(request.error);
+    });
+  }
+
+  async countWordsInRange(min: number, max: number): Promise<number> {
+    return new Promise(async (resolve, reject) => {
+      await this.openDB();
+
+      const store = this.getObjectStore('readonly');
+      const range = IDBKeyRange.bound(min, max, false, false);
+      const index = store.index(this.BY_PROGRESS_PERCENTAGE);
+      const request = index.count(range);
+
+      request.onsuccess = (event: any) => {
+        resolve(event.target.result as number);
+      };
+
+      request.onerror = () => reject(request.error);
+    });
+  }
+
   async getWordsForReview(limit: number = 10): Promise<Word[]> {
     await this.openDB();
 
@@ -119,14 +163,13 @@ export class VocabularyDBService {
       console.warn("Missing 'by_nextReviewDate' index.");
     }
 
-
     return new Promise((resolve, reject) => {
       const now = Date.now();
       const store = this.getObjectStore('readonly');
 
       const range = IDBKeyRange.upperBound(now, true);
 
-      const index = store.index('by_nextReviewDate');
+      const index = store.index(this.BY_NEXT_REVIEW_DATE);
       const request = index.openCursor(range, 'next');
 
       const words: Word[] = [];

@@ -1,12 +1,12 @@
 <div class="learning-container">
-  <h2>Vocabulary practice (English ➤ German)</h2>
+  <h2 class="text">Vocabulary practice (English ➤ German)</h2>
 
-  <p class="stats">Left for today: <strong>{{ remainingCount() }}</strong></p>
+  @if (currentWord()) {
+    <div class="stats text"><strong>{{ currentIndex() + 1}} / {{this.wordsForReviewLength()}}</strong></div>
 
-  @if (currentWord) {
     <div class="card">
       <div class="word-display">
-        <strong>{{ currentWord.english }}</strong>
+        <strong>{{ currentWord()?.english }}</strong>
       </div>
 
       <input
@@ -22,11 +22,11 @@
       <button (click)="checkAnswer()" [disabled]="showResult() || !userAnswer.trim()">Check</button>
 
       @if (showResult()) {
-        <div class="result-box" [class.correct]="isCorrect" [class.incorrect]="!isCorrect">
+        <div class="result-box" [class.correct]="isCorrect()" [class.incorrect]="!isCorrect()">
           @if (isCorrect()) {
-            <p>✅ **Good!** Great job.</p>
+            <p>✅ Good! Great job.</p>
           } @else {
-            <p>❌ **Błąd.** Poprawna odpowiedź to:</p>
+            <p>❌ Mistake! The correct answer is:</p>
             <p class="correct-text">{{ getCorrectAnswer() }}</p>
             <button (click)="onNext()" class="next-button">Next word (ENTER)</button>
           }
@@ -35,9 +35,41 @@
     </div>
   }
 
-  @if (!currentWord) {
+  @if (!currentWord()) {
     <div class="card">
       <button class="start-session-button" (click)="startSession()">New Session</button>
+    </div>
+
+    <p class="text stats">Your progress:</p>
+
+    <div class="stats-table-container card">
+      <table class="stats-table">
+        <thead>
+        <tr>
+          <th>Category</th>
+          <th>Progress</th>
+          <th>Count</th>
+        </tr>
+        </thead>
+        <tbody>
+          @for (data of statistics$ | async; track data.label) {
+            <tr>
+              <td class="label-cell">{{ data.label }}</td>
+              <td class="progress-cell">
+                <div class="progress-wrapper">
+                  <div class="mini-bar">
+                    <div class="fill" [style.width.%]="data.progress"></div>
+                  </div>
+                  <span class="percentage">{{ data.progress }}%</span>
+                </div>
+              </td>
+              <td class="count-cell">
+                <strong>{{ data.count }}</strong> / {{ data.total }}
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
     </div>
   }
 </div>

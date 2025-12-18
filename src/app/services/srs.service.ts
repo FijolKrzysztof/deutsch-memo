@@ -10,7 +10,11 @@ export class SrsService {
   private readonly MAX_INTERVAL_DAYS = 14;
 
   calculateNextReview(word: Word, grade: 1 | 0): Word {
-    let newWord: Word = { ...word };
+    let newWord: Word = {
+      ...word,
+      interval: word.interval || 0,
+      easeFactor: word.easeFactor || 2.5
+    };
 
     if (grade === 1) {
       newWord.repetitionCounter++;

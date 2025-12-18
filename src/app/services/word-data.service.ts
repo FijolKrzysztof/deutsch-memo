@@ -15,13 +15,39 @@ export class WordDataService {
   }
 
   private saveWords(words: Word[]): void {
-    console.log('words2', words)
-
-
     localStorage.setItem(this.STORAGE_KEY, JSON.stringify(words));
 
 
     this.wordsSubject.next(words);
+  }
+
+  async getStatisticsByProgressPercentage() {
+    const statistics = [];
+
+    const ranges = [
+      {min: 0, max: 0, label: '0%'},
+      {min: 1, max: 24, label: '> 0%'},
+      {min: 25, max: 49, label: '> 25%'},
+      {min: 50, max: 74, label: '> 50%'},
+      {min: 75, max: 99, label: '> 75%'},
+      {min: 100, max: 100, label: '100%'},
+    ]
+
+    const allWords = await this.vocabularyDbService.getTotalWordsCount();
+
+    for (const range of ranges) {
+      const count = await this.vocabularyDbService.countWordsInRange(range.min, range.max);
+
+      statistics.push({
+        label: range.label,
+        count: count,
+        range: range,
+        progress: Math.round((count / allWords) * 100) ,
+        total: allWords,
+      });
+    }
+
+    return statistics;
   }
 
   async exportProgress() {

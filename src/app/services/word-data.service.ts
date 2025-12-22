@@ -1,25 +1,19 @@
 import {inject, Injectable} from '@angular/core';
 import {Word} from '../models/word.model';
-import {BehaviorSubject} from 'rxjs';
+import {from, startWith, Subject, switchMap} from 'rxjs';
 import {VocabularyDBService} from './vocabulary-db.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class WordDataService {
-  private readonly STORAGE_KEY = 'learning_app_words_state';
-  private readonly wordsSubject: BehaviorSubject<Word[]> = new BehaviorSubject<Word[]>([]);
   private readonly vocabularyDbService = inject(VocabularyDBService);
 
-  constructor() {
-  }
-
-  private saveWords(words: Word[]): void {
-    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(words));
-
-
-    this.wordsSubject.next(words);
-  }
+  private statisticsSubject = new Subject();
+  readonly statistics$ = this.statisticsSubject.pipe(
+    startWith(null),
+    switchMap(() => from(this.getStatisticsByProgressPercentage()))
+  )
 
   async getStatisticsByProgressPercentage() {
     const statistics = [];
@@ -75,14 +69,18 @@ export class WordDataService {
   importProgress(jsonText: string): void {
     try {
       const importedWords: Word[] = JSON.parse(jsonText);
-      if (Array.isArray(importedWords) && importedWords.every(w => w.english && w.german && w.nextReviewDate)) {
-        this.saveWords(importedWords);
-        alert(`Imported ${importedWords.length} records.`);
-      } else {
-        throw new Error('Invalid file format.');
-      }
+      this.vocabularyDbService.putAllWords(importedWords)
+        .then(() => {
+          alert(`Imported ${importedWords.length} words`);
+          this.statisticsSubject.next(null);
+        })
+        .catch(err => {
+          console.error(err);
+          alert('Error importing data into local database');
+        });
     } catch (e) {
-      alert('Error uploading file.');
+      console.error(e);
+      alert('Error while loading import data');
     }
   }
 }

@@ -3,7 +3,7 @@ import {Word} from '../models/word.model';
 import {SrsService} from '../services/srs.service';
 import {FormsModule} from '@angular/forms';
 import {VocabularyDBService} from '../services/vocabulary-db.service';
-import {filter, from, startWith, Subject, switchMap, throttleTime} from 'rxjs';
+import {filter, Subject, throttleTime} from 'rxjs';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {WordDataService} from '../services/word-data.service';
 import {AsyncPipe} from '@angular/common';
@@ -27,17 +27,14 @@ export class LearningComponent {
   protected currentIndex = signal(0);
   protected showResult = signal(false);
   protected blockEnter = signal(false);
-  protected statisticsSubject = new Subject();
-  protected statistics$ = this.statisticsSubject.pipe(
-    startWith(null),
-    switchMap(() => from(this.wordDataService.getStatisticsByProgressPercentage()))
-  )
 
   private readonly wordDataService = inject(WordDataService);
   private readonly vocabularyDbService = inject(VocabularyDBService);
   private readonly srsService = inject(SrsService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly inputElement = viewChild('inputElement', {read: ElementRef});
+
+  protected statistics$ = this.wordDataService.statistics$;
 
   private handleEnterKeySubject = new Subject();
   private _ = this.handleEnterKeySubject.pipe(

@@ -158,40 +158,44 @@ export class VocabularyDBService {
 
   async getWordsForReview(limit: number = 10): Promise<Word[]> {
     await this.openDB();
+    const store = this.getObjectStore('readonly');
+    const index = store.index(this.BY_NEXT_REVIEW_DATE);
+    const now = Date.now();
+    const words: Word[] = [];
 
-    if (!this.db.objectStoreNames.contains(this.STORE_NAME) || !this.db.transaction([this.STORE_NAME], 'readonly').objectStore(this.STORE_NAME).indexNames.contains('by_nextReviewDate')) {
-      console.warn("Missing 'by_nextReviewDate' index.");
+    const fetchRange = (range: IDBKeyRange | null): Promise<Word[]> => {
+      return new Promise((resolve) => {
+        const results: Word[] = [];
+        const request = index.openCursor(range, 'next');
+
+        request.onsuccess = (event: any) => {
+          const cursor = event.target.result;
+          if (cursor && (words.length + results.length) < limit) {
+            const word = cursor.value as Word;
+            if (!word.progressPercentage || word.progressPercentage < 100) {
+              results.push(word);
+            }
+            cursor.continue();
+          } else {
+            resolve(results);
+          }
+        };
+      });
+    };
+
+    const overdue = await fetchRange(IDBKeyRange.bound(1, now));
+    words.push(...overdue);
+
+    if (words.length < limit) {
+      const fresh = await fetchRange(IDBKeyRange.only(0));
+      words.push(...fresh);
     }
 
-    return new Promise((resolve, reject) => {
-      const now = Date.now();
-      const store = this.getObjectStore('readonly');
+    if (words.length < limit) {
+      const future = await fetchRange(IDBKeyRange.lowerBound(now, true));
+      words.push(...future);
+    }
 
-      const range = IDBKeyRange.upperBound(now, true);
-
-      const index = store.index(this.BY_NEXT_REVIEW_DATE);
-      const request = index.openCursor(range, 'next');
-
-      const words: Word[] = [];
-      let count = 0;
-
-      request.onsuccess = (event: any) => {
-        const cursor = event.target.result;
-
-        if (cursor && count < limit) {
-          const word = cursor.value as Word;
-          if (!word.progressPercentage || word.progressPercentage < 100) {
-            words.push(cursor.value as Word);
-            count++;
-          }
-
-          cursor.continue();
-        } else {
-          resolve(words);
-        }
-      };
-
-      request.onerror = () => reject(request.error);
-    });
+    return words;
   }
 }

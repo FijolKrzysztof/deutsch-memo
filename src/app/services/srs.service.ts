@@ -12,7 +12,7 @@ export class SrsService {
   calculateNextReview(word: Word, grade: 1 | 0): Word {
     let newWord: Word = {
       ...word,
-      interval: word.interval || 0,
+      interval: word.interval || 1,
       easeFactor: word.easeFactor || 2.5
     };
 

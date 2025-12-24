@@ -13,7 +13,7 @@ export class SrsService {
     let newWord: Word = {
       ...word,
       interval: word.interval || 1,
-      easeFactor: word.easeFactor || 2.5
+      easeFactor: word.easeFactor || 2
     };
 
     if (grade === 1) {
@@ -22,12 +22,14 @@ export class SrsService {
       newWord.easeFactor = newWord.easeFactor + 0.1;
       newWord.easeFactor = Math.max(this.MIN_EASE_FACTOR, newWord.easeFactor);
 
+      const easeFactorInterval = Math.round(newWord.interval * newWord.easeFactor);
+
       if (newWord.repetitionCounter === 1) {
-        newWord.interval = 1;
+        newWord.interval = Math.min(1, easeFactorInterval);
       } else if (newWord.repetitionCounter === 2) {
-        newWord.interval = 6;
+        newWord.interval = Math.min(3, easeFactorInterval);
       } else {
-        newWord.interval = Math.round(newWord.interval * newWord.easeFactor);
+        newWord.interval = easeFactorInterval;
       }
 
     } else if (grade === 0) {

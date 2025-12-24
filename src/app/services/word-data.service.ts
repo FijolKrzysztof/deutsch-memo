@@ -34,7 +34,7 @@ export class WordDataService {
     }
 
     if (allWords === 0) {
-      await delay(100);
+      await delay(200);
 
       allWords = await this.vocabularyDbService.getTotalWordsCount();
     }

@@ -36,7 +36,7 @@ export class SrsService {
       newWord.easeFactor = newWord.easeFactor - 0.2;
       newWord.easeFactor = Math.max(this.MIN_EASE_FACTOR, newWord.easeFactor);
 
-      newWord.interval = 1;
+      newWord.interval = 0;
     }
 
     const now = Date.now();
